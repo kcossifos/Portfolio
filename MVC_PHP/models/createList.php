@@ -2,17 +2,24 @@
 
 class Create{
 	function createList(){
+
 		if(isset($_POST['submit'])){
 			if(!empty($_POST['Todo'])){
 						include("includes/db.php");
 						$item = $_POST['Todo'];
-			
+						$description = $_POST['descrip'];
+						$date = $_POST['date'];
+
 						$toDoItem = array(
-							"Todo"=>$item);
-						$stmt = $dbh->prepare("insert into PhpMVC(Todo)
-												values(:Todo)");
+							"Todo"=>$item,
+							"descrip"=>$description,
+							"date"=>$date);
+
+						$stmt = $dbh->prepare("insert into PhpMVC(Todo,descrip,date) values(:Todo, :descrip, :date)");
+						
 						$stmt->bindParam(':Todo', $toDoItem['Todo']);
-				
+						$stmt->bindParam(':descrip', $toDoItem['descrip']);
+						$stmt->bindParam(':date', $toDoItem['date']);
 						$stmt->execute();
 						header('location: ?action=home');
 			}
