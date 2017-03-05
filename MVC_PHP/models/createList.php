@@ -6,6 +6,7 @@ class Create{
 		if(isset($_POST['submit'])){
 			if(!empty($_POST['Todo'])){
 						include("includes/db.php");
+						
 						$item = $_POST['Todo'];
 						$description = $_POST['descrip'];
 						$date = $_POST['date'];
@@ -15,8 +16,10 @@ class Create{
 							"descrip"=>$description,
 							"date"=>$date);
 
+						//inserts into database
 						$stmt = $dbh->prepare("insert into PhpMVC(Todo,descrip,date) values(:Todo, :descrip, :date)");
 						
+						//binds the parameters
 						$stmt->bindParam(':Todo', $toDoItem['Todo']);
 						$stmt->bindParam(':descrip', $toDoItem['descrip']);
 						$stmt->bindParam(':date', $toDoItem['date']);

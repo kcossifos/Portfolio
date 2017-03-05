@@ -2,6 +2,7 @@
 
 class Read{
 	function displayList(){
+		//displays them all
 		include("includes/db.php");
 		$stmt = $dbh->prepare("select * from PhpMVC order by itemId asc");
 		$stmt->execute();
@@ -14,6 +15,7 @@ class Read{
 		}
 	}
 	function displayItem(){
+		//displays one todo item
 		$todo = $_GET['id'];
 		include("includes/db.php");
 		$stmt = $dbh->prepare("select * from PhpMVC where itemId = :itemId");
