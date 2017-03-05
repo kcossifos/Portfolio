@@ -1,6 +1,9 @@
 <form action="?action=toDoList" enctype="multipart/form-data" method="post">
-	Title: <input type="text" name="Todo" value=""/>
-	Description: <input type="text" name="descrip" value=""/>
-	Due Date: <input type="text" name="date" value=""/>   
-	<input type="submit" name="submit" value="Submit"> 
+	<label>Title:</label> 
+	<input type="text" name="Todo" value=""/>
+	<label>Description:</label> 
+	<input type="text" name="descrip" value=""/>
+	<label>Due Date:</label>
+	<input type="text" name="date" value=""/>   
+	<input id='button' type="submit" name="submit" value="Submit"> 
 </form>

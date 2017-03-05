@@ -8,10 +8,10 @@ class Read{
 		$stmt->execute();
 		$data = $stmt->fetchAll();
 		foreach ($data as $toDoItems) {
-				echo " Title: {$toDoItems['Todo']}" .  "</br>" . "Description: {$toDoItems['descrip']}" 
+				echo "<section>Title: {$toDoItems['Todo']}" .  "</br>" . "Description: {$toDoItems['descrip']}" 
 				. "</br>" . "Date: {$toDoItems['date']}" . "</br>" .
 				"<a href=?action=deleteItems&id={$toDoItems['itemId']}>Delete item</a> " . 
-				"<a href=?action=updateItems&id={$toDoItems['itemId']}>Update item</a></br>";
+				"<a href=?action=updateItems&id={$toDoItems['itemId']}>Update item</a></br></section>";
 		}
 	}
 	function displayItem(){
