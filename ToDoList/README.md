@@ -3,7 +3,7 @@ To Do List that allows a user to create a to do item with a description and date
 
 ##Description
 In this project, I have used the following languages PHP, HTML, and CSS. 
-Along with mysql database. This project will help you understand the basic MVC structure. For addition links to have a better understanding of MVC go to [MVC Part 1](https://www.sitepoint.com/the-mvc-pattern-and-php-1/)
+Along with mysql database. This project will help you understand the basic MVC structure. For addition links to have a better understanding of MVC go to [MVC Part 1](https://www.sitepoint.com/the-mvc-pattern-and-php-1/) and [MVC Part 2](https://www.sitepoint.com/the-mvc-pattern-and-php-2/)
 
 ##Getting Started
 ```
