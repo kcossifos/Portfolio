@@ -8,7 +8,7 @@ This github repo is a representation of work that I have completed throughout my
 1) [Membership Registeration](https://github.com/kcossifos/Portfolio-/tree/PHP/Membership%20Registeration/pdocrud_mvc)  
 2) [Student Grades Report](https://github.com/kcossifos/Portfolio-/tree/PHP/Student%20Grades%20Report/pdocrud_mvc)  
 3) [Signup/Login System](https://github.com/kcossifos/Portfolio-/tree/PHP/Signup:Login%20System)
-4) [To Do List](https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList)
+4) [To Do List](https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList)  
 
 ####Illustrator  
 1) [Custom Symbols](https://github.com/kcossifos/Portfolio-/tree/Illustrator/CustomSymbols)  
