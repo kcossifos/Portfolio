@@ -10,7 +10,7 @@ Now clone this repository to get started by typing git clone https://github.com/
 ```
 
 ##Create your Database
-This To Do List is using MySQL
+This Student Grades Report is using MySQL
 ```
 1) Make sure you have MySQL installed, if not in your terminal run the command brew install mysql
 2) Once that is installed to run MySQL server, run the command mysql.server start in your terminal
