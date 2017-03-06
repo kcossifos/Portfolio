@@ -1,7 +1,7 @@
 # Portfolio - Illustrator Branch
 
 #About
-This github branch demonstrates my knowledge on illustrator, how much I have progressed from basic symbols to full redesign of sites.  
+This github branch demonstrates my knowledge on illustrator and how much I have progressed from basic symbols to full redesign of sites.  
 
 #Table of Contents
 
