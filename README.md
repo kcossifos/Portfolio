@@ -5,14 +5,14 @@ This github repo is a representation of work that I have completed throughout my
 
 #Table of Contents
 ####PHP  
-1)[Membership Registeration](https://github.com/kcossifos/Portfolio-/tree/PHP/Mini%20Assignment/pdocrud_mvc)  
-2)[Student Grades Report](https://github.com/kcossifos/Portfolio-/tree/PHP/Midterm/pdocrud_mvc)  
-3)[Signup/Login System](https://github.com/kcossifos/Portfolio-/tree/PHP/Final)  
+1) [Membership Registeration](https://github.com/kcossifos/Portfolio-/tree/PHP/Mini%20Assignment/pdocrud_mvc)  
+2) [Student Grades Report](https://github.com/kcossifos/Portfolio-/tree/PHP/Midterm/pdocrud_mvc)  
+3) [Signup/Login System](https://github.com/kcossifos/Portfolio-/tree/PHP/Final)  
 ####Illustrator  
-1)[Custom Symbols](https://github.com/kcossifos/Portfolio-/tree/Illustrator/CustomSymbols)  
-2)[Class Final](https://github.com/kcossifos/Portfolio-/tree/Illustrator/IllustratorFinal)  
-3)[Desktop Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Desktop%20Wireframes)  
-4)[Mobile Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Mobile%20Wireframes)  
+1) [Custom Symbols](https://github.com/kcossifos/Portfolio-/tree/Illustrator/CustomSymbols)  
+2) [Class Final](https://github.com/kcossifos/Portfolio-/tree/Illustrator/IllustratorFinal)  
+3) [Desktop Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Desktop%20Wireframes)  
+4) [Mobile Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Mobile%20Wireframes)  
 
 #Contact Information  
 **Email:** kcossifos@gmail.com  
