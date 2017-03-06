@@ -7,7 +7,7 @@ In this project, I have used the following languages PHP, HTML, and CSS. This pr
 ##Getting Started
 ```
 First make sure you have some kind of code editior installed on your computer
-If not, I recommed installing [Atom](https://atom.io)
+If not, I recommed installing Atom at https://atom.io
 Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList
 ```
 
