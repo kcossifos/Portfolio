@@ -1,0 +1,133 @@
+/****************    Main Page       *******************/
+.top {
+	font-size: 18px;
+}
+
+.top:hover {
+	color: #83878A;
+}
+
+/****************    Detail Page       *******************/
+#box {
+	background-color: #B7CBCC;
+}
+
+#deets{
+	margin-left: 10px;
+	margin-top: 50px;
+	font-size: 50px;
+	padding-top: 20px;
+}
+
+.move {
+	margin-left: 400px;
+}
+
+#pic {
+	float: left;
+	margin-top: 20px;
+	border: 2px solid #000;
+	margin-left: 50px;
+}
+
+#right {
+	float: right;
+	margin-right: 300px;
+	width: 200px;
+	height: 200px;
+	font-size: 25px;
+	margin-top: 30px;
+}
+
+#btn {
+	margin-top: 320px;
+	margin-left: 520px;
+}
+
+#tlink {
+	font-size: 25px;
+	color: #1C2833;
+}
+
+#tlink:hover {
+	color: #83878A;
+}
+
+button {
+	width: 90px;
+	height: 30px;
+	font-size: 18px;
+	margin-left: 150px;
+	margin-bottom: 50px;
+}
+
+/****************    Form Page       *******************/
+
+#icon {
+	float: left;
+	border: 2px solid #000;
+}
+
+form {
+ float: right;
+ margin-right: 350px;
+ font-size: 17px;
+}
+
+#back {
+	background-color: #B7CBCC;
+	height: 400px;
+}
+
+input {
+	margin-bottom: 30px;
+	width: 150px;
+}
+
+#top {
+	margin-top: 30px;
+	margin-right: 50px;
+	margin-left: -150px;
+}
+
+select {
+	width: 100px;
+}
+
+#for {
+	margin-left: 65px;
+	margin-top: 50px;
+	font-size: 60px;
+	padding-top: 20px;
+}
+
+/****************    Student Page       *******************/
+
+#color {
+	background-color: #B7CBCC;
+	height: 400px;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	margin-bottom: 20px;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+#studl {
+	font-size: 50px;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+
+
