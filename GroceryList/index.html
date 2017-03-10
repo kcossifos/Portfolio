@@ -1,0 +1,27 @@
+<!doctype HTML>
+<html>
+    <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <link rel="stylesheet" href="css/main.css"/>
+    </head>
+        <body ng-app="groceryList" ng-controller="Control">
+          <h1> My Grocery List</h1>
+\          <div id="bord">
+           <form ng-submit="listForm()">
+            <label>
+              Add Grocery Item: <br>
+              <input type="text" ng-model="food.list">
+            </label>
+            <button id="saves" ng-click="increment()" type="submit">Save</button>
+          </form>
+          <h3> Items {{ count }} </h3> 
+          <ul>
+            <li ng-repeat="food in listArray track by $index"> 
+              {{ food.list }}
+             <button id="dbtn" ng-click="removeFood($index)">X</button>
+             </li>
+          </ul>
+        </div>
+        </body>
+</html>
