@@ -1,0 +1,205 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- General Content
+- Typography
+- Header and Navigation
+- Images and Media
+- Footer
+- Media Queries
+––––––––––––––––––––––––––––––––––––––––––––––––––
+*/
+
+/* General Content
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.main{
+	padding-top: 3%;
+}
+
+.row {
+	padding: 2% 0;
+}
+
+.green  {
+	background-color: #3E0808;
+}
+
+#red {
+	background-color: #3E0808;
+	padding: 3% 0;	
+}
+
+			
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+body {
+	font-family: 'Abel', sans-serif;
+	font-size: 1.5em;
+	color: #000;
+	background: #FFF url("../images/paper3.jpg");
+}	
+
+h2 {
+	font-family: 'Satisfy', cursive;
+	font-size: 3.5em;
+	text-align: center;
+	margin-top: 2%;
+}
+
+#space {
+	margin-bottom: -1%;
+}
+	
+#bio {
+	margin: .8% -10% 0 2%;
+	float: left;
+	font-size: 1.2em;
+}
+
+#pic {
+	float: right;
+	margin: .8% -10% 2% 1%;
+}
+
+.food {
+	font-size: 1em;
+	margin-top: -15%;
+	margin-bottom: 10px;
+}
+
+h5 {
+	font-weight: bold;
+	color: #381717;
+	margin-bottom: 15%;
+	margin-top: -3%;
+}
+
+.sch {
+	margin-top: 1%;
+	margin-bottom: 1%;
+}	
+
+#hours {
+	text-align: center;
+	font-size: 1em;
+}
+
+.loc {
+	font-size: 1.2em;
+}
+
+.size {
+	font-size: 3.5em;
+}
+
+* Header and Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+header.main_nav {
+	padding: 1% 0;
+	display: block;
+}	
+	
+
+.right a {
+	font-size: 1.5em;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
+.right a:hover {
+	background-color: #fff;
+	color: #CC1A1A;
+}	
+
+.right {
+	float: left;
+	margin: 0 5%;
+	margin-top: 5%;
+}	
+
+.left {
+	float: left;
+	margin-left: -12%;
+}	
+	
+/* Images and Media
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+img {
+	max-width: 100%;
+}
+
+img.avatar {
+	border-radius: 10px;	
+	border: 3px solid #C7C6B3;
+}
+
+img:hover{
+	opacity: 0.8;
+}	
+
+img {
+	max-width: 100%;
+}
+
+#inside {
+	border: 2px solid #000;
+}	
+	
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+		
+p.copyright{
+	text-align: center;
+	color: #666;
+	font-size: 1em;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* mobile */
+@media only screen and  (max-width: 479px) {
+	.main{padding-top:15%;}
+	 img.avatar{margin-top: 15%;}
+	#pic{display: none;}
+	#bio{font-size: 1em;}
+	 h2{font-size: 2em;
+	   margin-bottom: 5%;}
+	.left{display: none;}	
+	.right a{font-size: 1.2em;
+			 margin-right: 2%;}
+	#space{margin-top: 8%;
+		   margin-bottom: -25%;}
+	 h2{font-size: 3em;}
+	 h5 {margin-top: 2%;}		 
+	.sp{margin-top: 10%;
+		margin-bottom: -12%;}
+	#hours{text-align: center;
+		   font-size: 1em;} 
+	.sch{text-align: center;}
+	#hr{margin-top: -10%;
+		margin-bottom: -1%;
+		font-size: 3em;}
+	.size{font-size: 3em;}
+	.loc{font-size: 1.1em;}
+	#faq{font-size: 3.5em;
+		 margin-top: -5%;}	 		
+	
+}
+
+
+/*  Tablet  */
+@media (min-width: 480px) and (max-width: 768px) {
+	
+	#pic{margin-right: .5%;}
+	.right a{margin-right: 20px;}
+	 img.avatar{margin-left: 12%;
+			   margin-bottom: 5%;}
+	.food{margin: -13% 15% 5% 12%;}	
+	 h5{margin-left: 12%;}			
+}

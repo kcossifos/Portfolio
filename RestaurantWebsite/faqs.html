@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Bonafide Restaurant</title>
+  <meta name="description" content="Protfolio for world-rewowned travel photographer Amy McAdams.">
+  <meta name="author" content="Kelsey Cossifos">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="css/mpopup.css">
+
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+<header class="main_nav green">
+	<div class="container">
+		<div class="tweleve columns">
+			<div class="left"><a href="index.html"><img src="images/rest.jpg" alt="logo"/></a></div>
+			<div class="right"><a href="index.html">Home</a></div>
+			<div class="right"><a href="menu.html">Menu</a></div>
+			<div class="right"><a href="hours.html">Hours</a></div>
+			<div class="right"><a href="location.html">Location</a></div>
+			<div class="right"><a href="faqs.html">FAQs</a></div>
+			<div class="right"><a href="Contact.html">Contact Us</a></div>
+		</div>
+	</div>
+</header>
+
+<div class="container main">
+<div class="twelve columns">
+	
+<h2 id="faq" class="tweleve columns">FAQs</h2>
+		
+		<div class="loc" class="twelve columns">
+	
+			<p><b>What is vegan food?</b> A vegan diet excludes all animal products, comprising vegetables, vegetable oils, grains, legumes, nuts, fruits and seeds. Meat, eggs, dairy products, and other animal derivatives are not consumed.</p>
+
+			<p><b>Do you accept take-out orders?</b> Yes, we do! You can place a take-out order by calling the restaurant at 407-228-3898. Our friendly staff will be happy to let you know about today's specials. </p>
+
+			<p><b>Do you serve alcohol?</b> Yes, we offer a small selection of beer and wine. Did you know that not all alcoholic beverages are vegan? Well, don't worry, we've verified that each of our selections are vegan - free of isinglass, chitosan, albumen, and other animal by-products. Please note: in accordance with local ordinance, BYOB is not acceptable at our restaurant.</p>
+
+			<p><b>Do you accept reservations?</b> No, we are a first-come, first-serve establishment, and reservations are not accepted. Exception: We accept courtesy reservations for parties consisting of eight guests or more. While reservations are not required, we recommend that parties of this size make a reservation during peak meal times: Friday and Saturday dinner, and Sunday Brunch. Please call us at 407-228-3898 to request a reservation.</p>
+			
+			<p><b>Do you deliver?</b> Currently we do not offer delivery service. However, we may introduce delivery service to a limited area at some point in the future.</p>
+			
+			<p><b>Do you have nutritional information or calorie counts for your menu?</b> We do not have formal nutritional workups for our menu items. Because we make nearly everything from scratch, it is not as simple as reading the label. And, unfortunately, hiring a nutritionist to conduct the analyses has so far been out of reach of our budget. For a rough idea, we suggest looking up a similar food item on a nutritional value website such as CalorieCount.com - the figures won't be exact, but the ballpark should be about the same.<p>
+		</div>		
+	</div>		
+</div>	
+
+<div id="red">
+	<div class="container">
+		<div class="twelve columns">
+		</div>
+	</div>	
+</div>
+
+<footer>
+	<div class="container">
+		<div class="row tweleve columns">
+			<p class="copyright">&copy; 2007 Bonafide Restaurant. All Rights Reserved.</p>
+		</div>	
+	</div>				
+</footer>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="java/main.js"></script>
+  <script type="text/javascript">
+  $('.image-link').magnificPopup({
+  type: 'image',
+  mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+  zoom: {
+    enabled: true, // By default it's false, so don't forget to enable it
+
+    duration: 300, // duration of the effect, in milliseconds
+    easing: 'ease-in-out', // CSS transition easing function
+
+    // The "opener" function should return the element from which popup will be zoomed in
+    // and to which popup will be scaled down
+    // By defailt it looks for an image tag:
+    opener: function(openerElement) {
+      // openerElement is the element on which popup was initialized, in this case its <a> tag
+      // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+      return openerElement.is('img') ? openerElement : openerElement.find('img');
+    }
+  }
+
+});
+  </script>
+</body>
+</html>

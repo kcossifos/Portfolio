@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Bonafide Restaurant</title>
+  <meta name="description" content="Protfolio for world-rewowned travel photographer Amy McAdams.">
+  <meta name="author" content="Kelsey Cossifos">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="css/mpopup.css">
+
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+<header class="main_nav green">
+	<div class="container">
+		<div class="tweleve columns">
+			<div class="left"><a href="index.html"><img src="images/rest.jpg" alt="logo"/></a></div>
+			<div class="right"><a href="index.html">Home</a></div>
+			<div class="right"><a href="menu.html">Menu</a></div>
+			<div class="right"><a href="hours.html">Hours</a></div>
+			<div class="right"><a href="location.html">Location</a></div>
+			<div class="right"><a href="faqs.html">FAQs</a></div>
+			<div class="right"><a href="Contact.html">Contact Us</a></div>
+		</div>
+	</div>
+</header>
+
+
+<div class="container main">
+<div class="twelve columns">
+	
+<h2 class="tweleve columns">Welcome!</h2>
+		
+		<div id="bio" class="six columns">
+
+			<p>Bonafide is a full-service vegan restaurant located just north of downtown Orlando in Winter Park. Our daily menu is 100% vegan and features hearty, homestyle fare. On Saturday and Sunday we also offer a Brunch menu.</p>
+
+			<p>We invite you to browse our website to learn more about us, scan through our recent news or read critics' and diners' reviews. You can also sign up for our monthly newsletter to have Ethos news and announcements delivered direct to your inbox!</p>
+
+			<p>Please contact us if you have any questions we have not addressed in the Frequently Asked Questions section, or if you have any comments you'd like to share.</p>
+
+			<p>Thank you for visiting, and we look forward to meeting you at the restaurant!</p>
+
+			<p>Sincerely,
+			<br>Owners of Bonafide Restaurant, Inc.
+			<br> Est'd 2007 • Family Owned & Operated</p>
+		</div>	
+		<div id="pic" class="six columns">
+			 <a class="image-link" href="images/inside.jpg"><img id="inside" src="images/inside.jpg" alt="inside"></a>
+		</div>	
+	</div>	
+</div><!--Container-->
+
+<div id="red">
+	<div class="container">
+		<div class="twelve columns">
+		</div>
+	</div>	
+</div>
+
+<footer>
+	<div class="container">
+		<div class="row tweleve columns">
+			<p class="copyright">&copy; 2007 Bonafide Restaurant. All Rights Reserved.</p>
+		</div>	
+	</div>				
+</footer>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="java/main.js"></script>
+  <script type="text/javascript">
+  $('.image-link').magnificPopup({
+  type: 'image',
+  mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+  zoom: {
+    enabled: true, // By default it's false, so don't forget to enable it
+
+    duration: 300, // duration of the effect, in milliseconds
+    easing: 'ease-in-out', // CSS transition easing function
+
+    // The "opener" function should return the element from which popup will be zoomed in
+    // and to which popup will be scaled down
+    // By defailt it looks for an image tag:
+    opener: function(openerElement) {
+      // openerElement is the element on which popup was initialized, in this case its <a> tag
+      // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+      return openerElement.is('img') ? openerElement : openerElement.find('img');
+    }
+  }
+
+});
+  </script>
+</body>
+</html>
