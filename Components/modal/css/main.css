@@ -1,0 +1,178 @@
+body {
+    background-color: #B2B2B2;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    padding-top: 10em;
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    padding: 1em;
+    color: #00BBD3;
+    font: 300 2rem/3rem "Ubuntu",sans-serif;
+    margin: 0rem 0rem -1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    color: #FFF;
+    font: .9rem/1.5rem "Ubuntu",sans-serif;
+    width: 31rem;
+    text-align: center;
+    margin-left: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+input {
+    border-color: #FFF;
+    display: inline-block;
+    height: 32px;
+    margin-bottom: .5rem;
+    margin-right: .9rem;
+    width: 19rem;
+    padding: .1rem .7rem;
+    font-size: .7rem;
+    color: #555;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    vertical-align: middle;
+}
+
+#openPopUp {
+    text-align: center;
+    background-color: #5B3081;
+    padding: 15px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border-radius: 3.5px;
+    text-decoration: none;
+    transition: background-color .15s linear;
+    -webkit-transition: background-color .15s linear;
+    -moz-transition: background-color .25s linear;
+    -o-transition: background-color .25s linear;
+}
+
+a#openPopUp:hover {
+    cursor: pointer;
+    background-color: #D7C6E8;
+}
+
+button {
+    background-color: #00BBD3;
+    width: 9rem;
+    height: 40px;
+    border: 1px solid #00BBD3;
+    padding: 1px 5px 2px 40px;
+    position: relative;
+    text-transform: uppercase;
+    vertical-align: middle;
+    margin-bottom: .5rem;
+    color: #FFF;
+    font: "Helvetica Neue", sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+button:hover {
+    color: #00BBD3;
+    background-color: #fff;
+    transition: all 0.3s ease 0s;
+}
+  
+.fa-envelope:before {
+    content: "\f0e0";
+    font-size: 1.1rem;
+    left: 1rem;
+    position: absolute;
+}
+
+.popup {
+    position: fixed;
+    top: -100rem;
+    left: 0;
+    z-index: 9999999;
+    background: rgba(0,0,0,0.75);
+    width: 100rem;
+    height: 100rem;
+    opacity: 0;
+    -webkit-transition: opacity .35s ease;
+    -moz-transition: opacity .35s ease;
+    -o-transition: opacity .35s ease;
+    transition: opacity .35s ease;
+}
+
+.popup .popUpContainer {
+    position: fixed;
+    left: 20rem;
+    top: -100rem;
+    -webkit-transition: top .35s ease;
+    -moz-transition: top .35s ease;
+    -o-transition: top .35s ease;
+    transition: top .35s ease;
+    background-color: #5E6067;
+    border-radius: .2rem;
+    z-index: 9999999;
+    width: 40rem;
+    height: 18rem;
+    border: solid 1.1rem #00BBD3;
+    padding-top: .8rem;
+}
+
+.popup h2 {
+    padding: .5rem;
+    text-align: center;
+    color: #444;
+}
+
+.popup img {
+    width: 100%;
+    display: block;
+}
+
+a.closePopUp  {
+    font-family: verdana;
+    color: #fff;
+    position: absolute;
+    top: -2.5rem;
+    right: -2.5rem;
+    padding: .3rem;
+    text-decoration: none;
+    background-color: #5E6067;
+    height: 1.9rem;
+    width: 1.9rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.popup a.closePopUp:hover {
+    color: #5E6067;
+    background-color: #fff;
+}
+
+.popup:target {
+    opacity: 1;
+    top: 0;
+}
+
+.popup .closePopUpOutSide {
+    position: absolute;
+    left: 0;
+    width: 100rem;
+    height: 100rem;
+    z-index: 9999991;
+}
+
+.popup:target .popUpContainer {
+    top: 8rem;
+    -webkit-transition: top .35s ease;
+    -moz-transition: top .35s ease;
+    -o-transition: top .35s ease;
+    transition: top .35s ease;
+}
+
