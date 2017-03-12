@@ -1,0 +1,10 @@
+<div id="color">
+<h1 id="studl">Student List</h1>
+<ul>
+	<li ng-repeat="s in studentsL track by $index">
+		<a href="#/details/{{$index}}">
+		{{s.name}}
+		</a>
+	</li>
+</ul>
+</div>
