@@ -1,8 +1,15 @@
 # PokemonList
 
 ##Descripition 
-Small application that allows the user to enter in a Pokemon's name, type, and level and then delete that pokemon if necessary
+Small application that allows the user to enter in a Pokemon's name, type, and level and then delete that pokemon if necessary.
+This application includes the following coding languages AngularJS, CSS, and HTML.
 
+##Getting Started
+```
+First make sure you have some kind of code editior installed on your computer
+If not, I recommed installing Atom at https://atom.io
+Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio.git
+```
 
 ##Directives
 The following directives that are used in this application
