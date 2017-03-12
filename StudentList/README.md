@@ -9,12 +9,49 @@ The following directives that are used in this application
 
 **ng-app** flags the HTML element that AngularJS should consider to be the root element of the application which allows a developer to tell AngularJS what portion of the application should be treated as the AngularJS.
 
+**ng-view** complements the $route service by including the rendered template of the current route into the main layoutfile. Every time the current route changes, the included view changes with it according to the configuration of the $route service.
+
 ```
 <body ng-app="WeekThree">
 	<a class="top" href="#/students">Students</a>
 	<a class="top" href="#/add">Add a Student</a>
    <div ng-view></div>
 </body>
+```
+
+**ng-repeat** instantiates a template once per item from a collection. Each template instance gets its own scope, where the given loop variable is set to the current collection item, and $index is set to the item index or key.
+
+```
+<ul>
+	<li ng-repeat="s in studentsL track by $index">
+		<a href="#/details/{{$index}}">
+		{{s.name}}
+		</a>
+	</li>
+</ul>
+```
+**ng-submit** enables binding AngularJS expressions to onsubmit events.
+
+**ng-model** binds an input,select, textarea to a property on the scope
+```
+<form ng-submit="saveStudent()">
+	<label>Student Name:<br><input ng-model="student.name" type="text"/></label><br>
+	<label>Degree Program:<br><input ng-model="student.program" type="text"/></label><br>
+	<label>Grade Level:<br><select ng-model="student.grade">
+		<option>Freshman</option>
+		<option>Sophmore</option>
+		<option>Junior</option>
+		<option>Senior</option>
+	</select></label><br>
+	<div id="top">
+	<button type="submit">Add</button>
+</div>
+</form>
+```
+
+**ng-click** allows you to specify custom behavior when an element is clicked.
+```
+<button ng-click="removeS()">Delete</button>
 ```
 
 
