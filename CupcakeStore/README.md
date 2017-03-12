@@ -1,7 +1,7 @@
 # Cupcake Store
 
 ##Descripition 
-This application is a simple representation of crud in angular. The user can add a student by entering their name, degree program, and grade level. If the user wants to edit or delete the students information they can simply click on the students name. This application includes the following coding languages AngularJS, CSS, and HTML.
+This application is a simple representation of crud in angular. The user can add a student by entering their name, degree program, and grade level. If the user wants to edit or delete the students information they can simply click on the students name. This application includes the following coding languages AngularJS, CSS, and HTML. To view how this application works go to [CupcakeStore](https://kcossifos.github.io/Portfolio/CupcakeStore/index.html)
 
 
 ##Getting Started
