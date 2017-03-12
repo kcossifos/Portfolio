@@ -32,7 +32,7 @@ The following directives that are used in this application
 ```
 **ng-submit** enables binding AngularJS expressions to onsubmit events.
 
-**ng-model** binds an input,select, textarea to a property on the scope
+**ng-model** binds an input,select, textarea to a property on the scope.
 ```
 <form ng-submit="saveStudent()">
 	<label>Student Name:<br><input ng-model="student.name" type="text"/></label><br>
