@@ -16,6 +16,19 @@ This github repo is a representation of work that I have completed throughout my
 3) [Desktop Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Desktop%20Wireframes)  
 4) [Mobile Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Mobile%20Wireframes)  
 
+####AngularJS 
+1) [CupcakeStore](https://github.com/kcossifos/Portfolio/tree/angular/CupcakeStore)  
+2) [Employee Directory](https://github.com/kcossifos/Portfolio/tree/angular/EmployeeDirectory)  
+3) [Grocery List](https://github.com/kcossifos/Portfolio/tree/angular/GroceryList)  
+4) [Pokemon List](https://github.com/kcossifos/Portfolio/tree/angular/PokemonList)
+5) [Student List](https://github.com/kcossifos/Portfolio/tree/angular/StudentList)
+
+####HTML/CSS
+1) [Festival Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/FestivalWebsite)  
+2) [HelloKitty Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/HelloKittyWebsite)  
+3) [Restaurant Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/RestaurantWebsite)  
+4) [SailorMoon Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/SailorMoonWebsite)
+
 #Contact Information  
 **Email:** kcossifos@gmail.com  
 **Phone Number:** (845)-662-5063  
