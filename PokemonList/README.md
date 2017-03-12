@@ -2,7 +2,7 @@
 
 ##Descripition 
 Small application that allows the user to enter in a Pokemon's name, type, and level and then delete that pokemon if necessary.
-This application includes the following coding languages AngularJS, CSS, and HTML.
+This application includes the following coding languages AngularJS, CSS, and HTML. To view this application go to [PokemonList](https://kcossifos.github.io/Portfolio/PokemonList/index.html)
 
 ##Getting Started
 ```
