@@ -1,22 +1,8 @@
-# Portfolio
+# Hello Kitty
 
-#About
-This github repo is a representation of work that I have completed throughout my time at Full Sail University while studying Web Design and Development. Throughout this repo you will see numerous coding languages I have learned such as Javascript, PHP, Angular, HTML, CSS, along with varous others. In addition, you will come across work that I have created in Creative Adobe Suite like Illustrator and Photoshop. This course has not only taught me how to design and code but also to use databases. I will include explanations of my code along with snippets and sql dumps. 
+###About
+This is a simple application that demonstrates the use of the foundation framework with HTML and CSS. It is a hello kitty website that allows you to through selected womens wear and read about the main characters.  
 
-#Table of Contents
-####PHP  
-1) [Membership Registeration](https://github.com/kcossifos/Portfolio-/tree/PHP/Membership%20Registeration/pdocrud_mvc)  
-2) [Student Grades Report](https://github.com/kcossifos/Portfolio-/tree/PHP/Student%20Grades%20Report/pdocrud_mvc)  
-3) [Signup/Login System](https://github.com/kcossifos/Portfolio-/tree/PHP/Signup:Login%20System)  
-4) [To Do List](https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList)  
+###Foundation
 
-####Illustrator  
-1) [Custom Symbols](https://github.com/kcossifos/Portfolio-/tree/Illustrator/CustomSymbols)  
-2) [Class Final](https://github.com/kcossifos/Portfolio-/tree/Illustrator/IllustratorFinal)  
-3) [Desktop Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Desktop%20Wireframes)  
-4) [Mobile Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Mobile%20Wireframes)  
-
-#Contact Information  
-**Email:** kcossifos@gmail.com  
-**Phone Number:** (845)-662-5063  
-**Social Media:** [Linkedin](https://www.linkedin.com/in/kcossifos/)  
+Foundation is a framework that helps make your application responsive. To use the this framework in your application you must download it from [Foundation](http://foundation.zurb.com) Once you have that completed, add it to your project folder and link it inside your html files. An example is `<link rel="stylesheet" href="css/foundation.css" />`
