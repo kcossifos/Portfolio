@@ -9,7 +9,7 @@ Along with mysql database. This project will help you understand the basic MVC s
 ```
 First make sure you have some kind of code editior installed on your computer
 If not, I recommed installing Atom at https://atom.io
-Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList
+Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio.git
 ```
 
 ##Create your Database
