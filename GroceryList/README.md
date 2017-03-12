@@ -29,7 +29,7 @@ The following directives that are used in this application
 ```
   <body ng-app="groceryList" ng-controller="Control">
           <h1> My Grocery List</h1>
-\          <div id="bord">
+          <div id="bord">
            <form ng-submit="listForm()">
             <label>
               Add Grocery Item: <br>
