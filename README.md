@@ -11,23 +11,23 @@ This github repo is a representation of work that I have completed throughout my
 4) [To Do List](https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList)  
 
 ####Illustrator  
-1) [Custom Symbols](https://github.com/kcossifos/Portfolio-/tree/Illustrator/CustomSymbols)  
+1) [Custom Symbols](https://github.com/kcossifos/Portfolio-/tree/Illustrator/CustomSymbols)    
 2) [Class Final](https://github.com/kcossifos/Portfolio-/tree/Illustrator/IllustratorFinal)  
 3) [Desktop Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Desktop%20Wireframes)  
 4) [Mobile Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Mobile%20Wireframes)  
 
 ####AngularJS 
 1) [CupcakeStore](https://github.com/kcossifos/Portfolio/tree/angular/CupcakeStore)  
-2) [Employee Directory](https://github.com/kcossifos/Portfolio/tree/angular/EmployeeDirectory)  
-3) [Grocery List](https://github.com/kcossifos/Portfolio/tree/angular/GroceryList)  
-4) [Pokemon List](https://github.com/kcossifos/Portfolio/tree/angular/PokemonList)
-5) [Student List](https://github.com/kcossifos/Portfolio/tree/angular/StudentList)    
+2) [Employee Directory](https://github.com/kcossifos/Portfolio/tree/angular/EmployeeDirectory)   
+3) [Grocery List](https://github.com/kcossifos/Portfolio/tree/angular/GroceryList)    
+4) [Pokemon List](https://github.com/kcossifos/Portfolio/tree/angular/PokemonList)  
+5) [Student List](https://github.com/kcossifos/Portfolio/tree/angular/StudentList)      
 
 ####HTML/CSS
 1) [Festival Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/FestivalWebsite)  
-2) [HelloKitty Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/HelloKittyWebsite)  
-3) [Restaurant Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/RestaurantWebsite)  
-4) [SailorMoon Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/SailorMoonWebsite)  
+2) [HelloKitty Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/HelloKittyWebsite)    
+3) [Restaurant Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/RestaurantWebsite)    
+4) [SailorMoon Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/SailorMoonWebsite)    
 
 #Contact Information  
 **Email:** kcossifos@gmail.com  
