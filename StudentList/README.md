@@ -14,7 +14,8 @@ The following directives that are used in this application
 </body>
 ```
 
-````ng-app` flags the HTML element that AngularJS should consider to be the root element of the application which allows a developer to tell AngularJS what portion of the application should be treated as the AngularJS.
+```
+`ng-app` flags the HTML element that AngularJS should consider to be the root element of the application which allows a developer to tell AngularJS what portion of the application should be treated as the AngularJS.
 ```
 
 
