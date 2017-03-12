@@ -1,7 +1,7 @@
 # Restaurant
 
 ###About
-This is a simple application that demonstrates the use of the skeleton framework with HTML and CSS. It is a resturant website that allows you to view the menu, hours, location, and has a contact form. 
+This is a simple application that demonstrates the use of the skeleton framework with HTML and CSS. It is a resturant website that allows you to view the menu, hours, location, and has a contact form. To view this website go to [Restaurant](https://kcossifos.github.io/Portfolio/RestaurantWebsite/index.html)
 
 ###Skeleton
 
