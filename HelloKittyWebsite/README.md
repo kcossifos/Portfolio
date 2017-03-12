@@ -1,7 +1,7 @@
 # Hello Kitty
 
 ###About
-This is a simple application that demonstrates the use of the foundation framework with HTML and CSS. It is a hello kitty website that allows you to through selected womens wear and read about the main characters.  
+This is a simple application that demonstrates the use of the foundation framework with HTML and CSS. It is a hello kitty website that allows you to through selected womens wear and read about the main characters.  To view this website go to [HelloKitty](https://kcossifos.github.io/Portfolio/HelloKittyWebsite/index.html)
 
 ###Foundation
 
