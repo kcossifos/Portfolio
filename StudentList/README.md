@@ -54,6 +54,7 @@ The following directives that are used in this application
 <button ng-click="removeS()">Delete</button>
 ```
 
+For more information on directives go to [AngularJS](https://docs.angularjs.org/tutorial)
 
 
 
