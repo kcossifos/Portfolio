@@ -20,7 +20,9 @@ The following directives that are used in this application
 
 **ng-submit** enables binding AngularJS expressions to onsubmit events.
 
-**ng-model** binds an input,select, textarea to a property on the scope
+**ng-model** binds an input,select, textarea to a property on the scope.
+
+**ng-controller** attaches a controller class to the view.
 
 **ng-click** allows you to specify custom behavior when an element is clicked.
 
