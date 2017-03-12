@@ -1,22 +1,54 @@
-# Portfolio
+# PokemonList
 
-#About
-This github repo is a representation of work that I have completed throughout my time at Full Sail University while studying Web Design and Development. Throughout this repo you will see numerous coding languages I have learned such as Javascript, PHP, Angular, HTML, CSS, along with varous others. In addition, you will come across work that I have created in Creative Adobe Suite like Illustrator and Photoshop. This course has not only taught me how to design and code but also to use databases. I will include explanations of my code along with snippets and sql dumps. 
+##Descripition 
+Small application that allows the user to enter in a Pokemon's name, type, and level and then delete that pokemon if necessary
 
-#Table of Contents
-####PHP  
-1) [Membership Registeration](https://github.com/kcossifos/Portfolio-/tree/PHP/Membership%20Registeration/pdocrud_mvc)  
-2) [Student Grades Report](https://github.com/kcossifos/Portfolio-/tree/PHP/Student%20Grades%20Report/pdocrud_mvc)  
-3) [Signup/Login System](https://github.com/kcossifos/Portfolio-/tree/PHP/Signup:Login%20System)  
-4) [To Do List](https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList)  
 
-####Illustrator  
-1) [Custom Symbols](https://github.com/kcossifos/Portfolio-/tree/Illustrator/CustomSymbols)  
-2) [Class Final](https://github.com/kcossifos/Portfolio-/tree/Illustrator/IllustratorFinal)  
-3) [Desktop Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Desktop%20Wireframes)  
-4) [Mobile Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Mobile%20Wireframes)  
+##Directives
+The following directives that are used in this application
 
-#Contact Information  
-**Email:** kcossifos@gmail.com  
-**Phone Number:** (845)-662-5063  
-**Social Media:** [Linkedin](https://www.linkedin.com/in/kcossifos/)  
+**ng-app** flags the HTML element that AngularJS should consider to be the root element of the application which allows a developer to tell AngularJS what portion of the application should be treated as the AngularJS.
+
+**ng-repeat** instantiates a template once per item from a collection. Each template instance gets its own scope, where the given loop variable is set to the current collection item, and $index is set to the item index or key.
+
+**ng-submit** enables binding AngularJS expressions to onsubmit events.
+
+**ng-model** binds an input,select, textarea to a property on the scope
+
+**ng-click** allows you to specify custom behavior when an element is clicked.
+
+```
+<body ng-app="pokedex" ng-controller="trainer">
+    <form ng-submit="onCatch()">
+        <label>
+            Pokemon Name:
+            <input type="text" ng-model="pokemon.name"> 
+        </label>
+        <label>
+            Pokemon Type:
+            <select ng-model="pokemon.type">
+                <option>Fire</option>
+                <option>Water</option>
+                <option>Grass</option>
+            </select>
+        </label>
+        <label>
+            Pokemon Level:
+            <input type="text" ng-model="pokemon.level"> 
+        </label>
+        <button type="submit">Catch It!</button>
+    </form>
+    <div ng-repeat="pokemon in pokeArr track by $index" style="height: 125px; width: 125px; float: left; padding: 10px; margin: 10px; border: 1px solid #cdcdcd; background: {{getColor(pokemon)}};">
+        <p>{{pokemon.name}}</p>
+        <p>{{pokemon.type}}</p>
+        <p>{{pokemon.level}}</p>
+        <button ng-click="removePokedata($index)">Set them free!</button>
+    </div>
+</body>
+```
+
+For more information on directives go to [AngularJS](https://docs.angularjs.org/tutorial)
+
+
+
+
