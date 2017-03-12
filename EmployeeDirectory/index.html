@@ -1,0 +1,32 @@
+<!doctype HTML>
+<html>
+    <head>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+        <script type="text/javascript" src="js/service.js"></script>
+        <link rel="stylesheet" href="css/main.css"/>
+    </head>
+    <body ng-app="empApp" ng-controller="myController">
+    <div id="wrapper">    
+    <form ng-submit="empSave()">
+    <div id="left"> 
+    <h1>Add Employee</h1> 
+        <label>Employee: <br><input type="text" ng-model="employee.name"></label><br>
+        <label>Street: <br> <input type="text" ng-model="employee.street"></label><br>
+        <label>City: <br><input type="text" ng-model="employee.city"></label><br>
+        <label>State: <br><input type="text" ng-model="employee.state"></label><br>
+        <label>Zip Code: <br> <input type="text" ng-model="employee.zipcode"></label><br>
+        <button id="btn" type="submit">Add Entry</button>
+       </div> 
+    </form>
+    <div id="right">
+    <h1 id="size">Employee Directory</h1>
+    <ul>
+
+        <li ng-repeat="employee in employees track by $index"><button id="emp" ng-click="removeEmp($index)">X</button>Employee: {{employee.name}} <br> Street: {{employee.street}} <br> City: {{employee.city}}  <br>State: {{employee.state}} <br> Zipcode: {{employee.zipcode}} <br>
+         </li>
+    </ul>  
+    </div> 
+    </div> 
+    </body>
+</html>
