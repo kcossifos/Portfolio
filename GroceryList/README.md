@@ -1,22 +1,55 @@
-# Portfolio
+# Grocery List
 
-#About
-This github repo is a representation of work that I have completed throughout my time at Full Sail University while studying Web Design and Development. Throughout this repo you will see numerous coding languages I have learned such as Javascript, PHP, Angular, HTML, CSS, along with varous others. In addition, you will come across work that I have created in Creative Adobe Suite like Illustrator and Photoshop. This course has not only taught me how to design and code but also to use databases. I will include explanations of my code along with snippets and sql dumps. 
+##Descripition 
+A simple application that allows the user to add grocery items to their list and delete them.
+This application includes the following coding languages AngularJS, CSS, and HTML.
 
-#Table of Contents
-####PHP  
-1) [Membership Registeration](https://github.com/kcossifos/Portfolio-/tree/PHP/Membership%20Registeration/pdocrud_mvc)  
-2) [Student Grades Report](https://github.com/kcossifos/Portfolio-/tree/PHP/Student%20Grades%20Report/pdocrud_mvc)  
-3) [Signup/Login System](https://github.com/kcossifos/Portfolio-/tree/PHP/Signup:Login%20System)  
-4) [To Do List](https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList)  
+##Getting Started
+```
+First make sure you have some kind of code editior installed on your computer
+If not, I recommed installing Atom at https://atom.io
+Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio.git
+```
 
-####Illustrator  
-1) [Custom Symbols](https://github.com/kcossifos/Portfolio-/tree/Illustrator/CustomSymbols)  
-2) [Class Final](https://github.com/kcossifos/Portfolio-/tree/Illustrator/IllustratorFinal)  
-3) [Desktop Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Desktop%20Wireframes)  
-4) [Mobile Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Mobile%20Wireframes)  
+##Directives
+The following directives that are used in this application
 
-#Contact Information  
-**Email:** kcossifos@gmail.com  
-**Phone Number:** (845)-662-5063  
-**Social Media:** [Linkedin](https://www.linkedin.com/in/kcossifos/)  
+**ng-app** flags the HTML element that AngularJS should consider to be the root element of the application which allows a developer to tell AngularJS what portion of the application should be treated as the AngularJS.
+
+**ng-controller** attaches a controller class to the view.
+
+**ng-repeat** instantiates a template once per item from a collection. Each template instance gets its own scope, where the given loop variable is set to the current collection item, and $index is set to the item index or key.
+
+**ng-submit** enables binding AngularJS expressions to onsubmit events.
+
+**ng-model** binds an input,select, textarea to a property on the scope
+
+**ng-click** allows you to specify custom behavior when an element is clicked.
+
+```
+  <body ng-app="groceryList" ng-controller="Control">
+          <h1> My Grocery List</h1>
+\          <div id="bord">
+           <form ng-submit="listForm()">
+            <label>
+              Add Grocery Item: <br>
+              <input type="text" ng-model="food.list">
+            </label>
+            <button id="saves" ng-click="increment()" type="submit">Save</button>
+          </form>
+          <h3> Items {{ count }} </h3> 
+          <ul>
+            <li ng-repeat="food in listArray track by $index"> 
+              {{ food.list }}
+             <button id="dbtn" ng-click="removeFood($index)">X</button>
+             </li>
+          </ul>
+        </div>
+        </body>
+```
+
+For more information on directives go to [AngularJS](https://docs.angularjs.org/tutorial)
+
+
+
+
