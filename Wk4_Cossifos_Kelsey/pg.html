@@ -1,0 +1,109 @@
+<!Doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tomorrow</title>
+<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+<link href="css/pg.css" rel="stylesheet" media="screen, projection">
+<link href="css/transitions.css" rel="stylesheet" media="screen, projection">
+<script type="text/javascript" src="scripts/modernizr.2.5.3.min-2.js"></script>
+<script type="text/javascript" src="scripts/utils.js"></script>
+<script type="text/javascript" src="scripts/gallery.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+<script type="text/javascript">
+	var inc=1;
+	$(function () {
+			$('#next').click(
+				function () {
+					var currentFig = "#pic" + inc;
+					if (inc == 10) {
+						nextFig = "#pic1";
+					} else {
+						nextFig = "#pic" + (inc + 1);
+					}
+					$(nextFig).addClass('showFig');
+					$(currentFig).removeClass('showFig');	
+					inc++;
+					if (inc == 11) { inc = 1; } 
+				}
+			);	
+			$('#previous').click(
+				function () {
+					var currentFig = "#pic" + inc;
+					if (inc == 1) {
+						prevFig = "#pic10";
+					} else {
+						prevFig = "#pic" + (inc - 1);
+					}
+					$(prevFig).addClass('showFig');
+					$(currentFig).removeClass('showFig');	
+					inc--;
+					if (inc == 0) { inc = 10; } 
+			}
+			);	
+	});
+	</script>
+</head>
+<body>
+<header class="homeHeader pageHeader">
+<h1>Tomorrow World! <a href="/index.htm" title="home"></a></h1>
+<nav id="pageNav" class="cf">
+  <ul>
+    <li><a href="index.html" title="Welcome">Welcome</a></li>
+    <li><a href="tickets.html" title="Tickets">2015 Tickets</a></li>
+    <li><a href="pg.html" title="Photo Gallery">Media</a></li>
+    <li><a href="# title="Getting Here">Getting Here</a></li>
+    <li><a href="#" title="2015 Lineup">2015 Lineup</a></li>
+    <li><a href="# title="Faq">FAQ</a></li>
+  </ul>
+</nav>
+<figure><img id="main" src="images/header.jpg" alt="header"></figure>
+</header>
+<p class="branding">Yesterday is <span class="quote">history</span>, Today is a <span class="quote">gift</span>, Tomorrow is a <span class="quote">Mystery</span></p>
+<section>
+<div>
+<iframe width="960" height="500" src="https://www.youtube.com/embed/MD1lX9gVLeE" frameborder="0" allowfullscreen></iframe>
+</div>
+</section>
+  <div id="gallery">
+  <h2 id="photo"> Photo Gallery:</h2>
+    <section class="container">
+      <div id="carousel">
+        <figure id="pic1" class="showFig"><img src="images/tmw1.jpg" width="274" height="174"></figure>
+        <figure id="pic2"><img src="images/tmw2.jpg" width="274" height="174"></figure>
+        <figure id="pic3"><img src="images/tmw3.jpg" width="274" height="174"></figure>
+        <figure id="pic4"><img src="images/tmw4.jpg" width="274" height="174"></figure>
+        <figure id="pic5"><img src="images/tmw5.jpg" width="274" height="174"></figure>
+        <figure id="pic6"><img src="images/tmw6.jpg" width="274" height="174"></figure>
+        <figure id="pic7"><img src="images/tmw7.jpg" width="274" height="174"></figure>
+        <figure id="pic8"><img src="images/tmw8.jpg" width="274" height="174"></figure>
+        <figure id="pic9"><img src="images/tmw9.jpg" width="274" height="174"></figure>
+        <figure id="pic10"><img src="images/tmw10.jpg" width="274" height="174"></figure>
+      </div>
+    </section>
+        <section>
+      <div id="picmob">
+        <figure id="pic1" class="showImg"><img src="images/tmw1.jpg" width="274" height="174"></figure>
+        <figure id="pic2" class="showImg"><img src="images/tmw2.jpg" width="274" height="174"></figure>
+        <figure id="pic3" class="showImg"><img src="images/tmw3.jpg" width="274" height="174"></figure>
+        <figure id="pic4" class="showImg"><img src="images/tmw4.jpg" width="274" height="174"></figure>
+        <figure id="pic5" class="showImg"><img src="images/tmw5.jpg" width="274" height="174"></figure>
+        <figure id="pic6" class="showImg"><img src="images/tmw6.jpg" width="274" height="174"></figure>
+        <figure id="pic7" class="showImg"><img src="images/tmw7.jpg" width="274" height="174"></figure>
+        <figure id="pic8" class="showImg"><img src="images/tmw8.jpg" width="274" height="174"></figure>
+        <figure id="pic9" class="showImg"><img src="images/tmw9.jpg" width="274" height="174"></figure>
+        <figure id="pic10" class="showImg"><img src="images/tmw10.jpg" width="274" height="174"></figure>
+      </div>
+    </section>
+    <section id="options">
+       <p id="toggle"><button id="toggle-axis">Toggle Axis</button></p> 
+        <p id="navigation">
+        <input type="hidden" id="panel-count" value="10"/>
+        <button id="previous" data-increment="-1">Previous</button>
+        <button id="next" data-increment="1">Next</button>
+        </p>
+    </section>
+  </div>
+</article>
+</body>
+</html>
