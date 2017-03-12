@@ -5,7 +5,7 @@ This is a basic registeration that only allows a user to have a username and pas
 ```
 First make sure you have some kind of code editior installed on your computer
 If not, I recommed installing Atom at https://atom.io
-Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio-.git
+Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio.git
 ```
 
 ##Create your Database
