@@ -1,7 +1,7 @@
 # Employee Directory
 
 ##Descripition 
-This is a simple application that allows a user to add an employee to a directory with the ability of deleting that employee. This application uses AngularJS, HTML, and CSS.
+This is a simple application that allows a user to add an employee to a directory with the ability of deleting that employee. This application uses AngularJS, HTML, and CSS. To view this application go to [EmployeeDirectory](https://kcossifos.github.io/Portfolio/EmployeeDirectory/index.html)
 
 ##Getting Started
 ```
