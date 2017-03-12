@@ -1,4 +1,4 @@
-# Student List
+# Cupcake Store
 
 ##Descripition 
 This application is a simple representation of crud in angular. The user can add a student by entering their name, degree program, and grade level. If the user wants to edit or delete the students information they can simply click on the students name. This application includes the following coding languages AngularJS, CSS, and HTML.
@@ -12,10 +12,10 @@ The following directives that are used in this application
 **ng-view** complements the $route service by including the rendered template of the current route into the main layoutfile. Every time the current route changes, the included view changes with it according to the configuration of the $route service.
 
 ```
-<body ng-app="WeekThree">
-	<a class="top" href="#/students">Students</a>
-	<a class="top" href="#/add">Add a Student</a>
-   <div ng-view></div>
+<body ng-app="CupcakeApp">
+	<a href="#/list">Cupcakes</a>
+	<a href="#/new">Add a Cupcake</a>
+	<div ng-view></div>	
 </body>
 ```
 
@@ -23,35 +23,32 @@ The following directives that are used in this application
 
 ```
 <ul>
-	<li ng-repeat="s in studentsL track by $index">
-		<a href="#/details/{{$index}}">
-		{{s.name}}
-		</a>
-	</li>
-</ul>
+ 	<li ng-repeat="c in cupCake track by $index">
+ 		<a href="#/detail/{{$index}}">
+ 		{{c.flavor}}
+ 	</li>
+ </ul>	
 ```
 **ng-submit** enables binding AngularJS expressions to onsubmit events.
 
 **ng-model** binds an input,select, textarea to a property on the scope.
 ```
-<form ng-submit="saveStudent()">
-	<label>Student Name:<br><input ng-model="student.name" type="text"/></label><br>
-	<label>Degree Program:<br><input ng-model="student.program" type="text"/></label><br>
-	<label>Grade Level:<br><select ng-model="student.grade">
-		<option>Freshman</option>
-		<option>Sophmore</option>
-		<option>Junior</option>
-		<option>Senior</option>
-	</select></label><br>
-	<div id="top">
-	<button type="submit">Add</button>
-</div>
+<form ng-submit="saveCupCake()">
+	<label>Cake Flavor: <input type="text" ng-model="cake.flavor"></input></label><br>
+	<label>Frosting Flavor: <input type="text" ng-model="cake.frosting"></input></label><br>
+	<label>Topping: <input type="text" ng-model="cake.topping"></input></label><br>
+	<label>Decoration: <select ng-model="cake.decor">
+		<option>Star</option>
+		<option>Heart</option>
+		<option>Swirl</option>
+	</select></label><br><br>
+	<button type="submit">Add Cupcake</button>
 </form>
 ```
 
 **ng-click** allows you to specify custom behavior when an element is clicked.
 ```
-<button ng-click="removeS()">Delete</button>
+<button ng-click="removeCake()">Remove Cupcake</button>
 ```
 
 For more information on directives go to [AngularJS](https://docs.angularjs.org/tutorial)
