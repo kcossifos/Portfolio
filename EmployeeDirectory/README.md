@@ -1,7 +1,7 @@
-# Student List
+# Employee Directory
 
 ##Descripition 
-This application is a simple representation of crud in angular. The user can add a student by entering their name, degree program, and grade level. If the user wants to edit or delete the students information they can simply click on the students name. This application includes the following coding languages AngularJS, CSS, and HTML.
+This is a simple application that allows a user to add an employee to a directory with the ability of deleting that employee. This application uses AngularJS, HTML, and CSS.
 
 ##Getting Started
 ```
