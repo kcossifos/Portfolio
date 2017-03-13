@@ -1,0 +1,210 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alcohol</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
+ </head>
+  <body>
+    <div class="off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+    <nav class="top-bar show-for-medium-up" data-topbar> 
+      <ul class="title-area">
+        <li class="name"></li>
+        <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+      </ul>
+      <section class="top-bar-section">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li class="has-dropdown"><a href="#">Alcohol</a>
+           <ul class="dropdown">
+            <li><a href='#lation'>Data</a></li>
+             <li><a href="#graph">Alcohol Graph</a></li>
+             <li><a href='#map'>Gender Map</a></li>
+             <li><a href="#af">Information</a></li>
+            </ul>
+          </li>
+        <ul class="right">
+        	<li class="has-form">
+  		<div class="row collapse">
+   		<div class="large-8 small-9 columns">
+     		 <input type="text" placeholder="Search...">
+   		</div>
+   		<div class="large-4 small-3 columns">
+      	<a href="#" class="alert button expand">Search</a>
+   	   </div>
+  	  </div>
+			</li>
+	   	</ul>
+      </section>
+    </nav>
+	<header class="row">
+     <canvas id= "canvas2" width="1000px" height="150px">
+          Your browser does not support canvas.
+        </canvas>
+     <div class="medium-12 columns">
+          <ul data-orbit>
+            <li>
+              <img src="img/alcohol.jpg" alt="alcohol">
+            </li>
+            <li>
+             <img src="img/beer.jpg"  alt="beer">
+            </li>
+            <li>
+              <img src="img/beer2.jpg"  alt="beer2">
+            </li>
+            <li>
+              <img src="img/liquor.jpg"  alt="liquor">
+            </li>
+            <li>
+              <img src="img/wine.jpg"  alt="wine">
+            </li>
+          </ul> 
+      </div>
+      </div>
+      </header>
+      
+    <div class="row">
+      <article>
+    </article>
+
+    <div id="graph" class="chart-container">
+    <div class="chart-title">
+      <h2>Percentage of alcohol use between the ages of 18-34</h2>
+    </div>
+    <div class="chart-content">
+      <div class="chart-y-axis">
+        <p style="top:0px;">50</p>
+        <p style="bottom:0px;">0</p>
+      </div>
+      <div class="chart-area" bar-spacing="50">
+        <div bar-value="39" label="Beer" class="chart-bar beer"></div>
+        <div bar-value="25" label="Wine" class="chart-bar wine"></div>
+        <div bar-value="30" label="Liquor"   class="chart-bar liquor"></div>
+        <div bar-value="6" label="N/A"   class="chart-bar nothing"></div>
+      </div>
+      <div class="chart-x-axis"></div>
+    </div>
+  </div>
+  <div id="tick"> 
+   <canvas id="canvas1" width = "435" height="430">
+      Canvas is not supported
+   </canvas>
+</div>
+<div>
+   <div id="map" class="map_container">
+
+      <a class="dot" style="top:455px; left:210px;" alcohol="FB" al="femalebeer"></a>
+      <a class="dot" style="top:455px; right:257px;" alcohol="MB" al="malebeer"></a>
+      <a class="dot" style="top:335px; left:230px;" alcohol="FW" al="femalewine"></a>
+      <a class="dot" style="top:335px; right:205px;" alcohol="MW" al="malewine"></a>
+      <a class="dot" style="top:250px; left:230px;" alcohol="FL" al="femalel"></a>
+      <a class="dot" style="top:250px; right:230px;" alcohol="ML" al="malel"></a>
+
+      <form id="mapForm" name="mapForm" class="form_a" method="post" action="">
+        <select name="alcohol" id="alcohol">
+          <option value="FB">Female - Beer</option>
+          <option value="FL">Female - liquor</option>
+          <option value="FW">Female - Wine</option>
+          <option value="MW">Male - Wine</option>
+          <option value="MB">Male - Beer</option>
+          <option value="ML">Male - liquor</option>
+          <option value="ALL" selected="selected">Show all Info</option>
+        </select>
+      </form>
+
+      <div class="detail_container">
+        <div class="al_detail">
+          <h3>Choose a Gender</h3>
+          <p>Click one of the buttons to the left.</p>
+          <p>You can also sort using the drop-down list!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="al_detail_container">
+      <div class="al_detail" id="malebeer">
+        <div class="al_info">
+          <h2>Beer</h2>
+          <p>Fourty-eight percent of males drink beer.</p>
+        </div>
+      </div>
+
+      <div class="al_detail" id="malel">
+        <div class="al_info">
+          <h2>Liquor</h2>
+          <p>Twenty-six percent of males drink liquor.</p>
+        </div>
+      </div>
+      
+      <div class="al_detail" id="femalebeer">
+        <div class="al_info">
+          <h2>Beer</h2>
+          <p>Twenty-two percent of females drink beer.</p>
+        </div>
+      </div>
+
+      <div class="al_detail" id="femalewine">
+        <div class="al_info">
+          <h2>Wine</h2>
+          <p>Fifty-one percent of females drink wine.</p>
+        </div>
+      </div>
+      <div class="al_detail" id="femalel">
+        <div class="al_info">
+          <h2>Female liquor</h2>
+          <p>Twenty-one percent of females drink liquor.</p>
+        </div>
+      </div>
+  
+      <div class="al_detail" id="malewine">
+        <div class="al_info">
+          <h2>Wine</h2>
+          <p> Twenty percent of males drink wine.</p>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div id="area">
+    <h1 id="af">Alcoholic Facts</h1>
+    <ul>
+      <li>Binge drinking is defined as 4+ drinks in 2 hours for Woman and 5+ drinks in 2 hours for Men.</li>
+<li>Binge drinking is twice as common among men.</li>
+<li>70% of binge drinking involves adults 26 years old and older.</li>
+<li> Wine and Beer are almost equally popular with hard alcohol is a distant 3rd.</li><li> Montana is the state that has the most DUI arrests.  Utah has the least.</li>
+<li>Thanksgiving Day is the holiday with the most DUI arrests.  New Year’s Eve is a distant second.</li>
+<li>15. In 2011 –a study showed most people like to drink: 36%-Beer, 35%- Wine, 23%-Hard liquor</li>
+
+ </ul>
+  </div>
+        </div><!-- end inner wrap, must go after ALL content -->
+    </div><!-- end offcanvas -->
+    <script type="text/javascript" src="js/vendor/jquery.js"></script>
+    <script type="text/javascript" src="js/foundation.min.js"></script>
+    <script type="text/javascript" src="js/chart.js"></script>
+    <script type="text/javascript" src="js/interactive_map.js"></script>
+    <script type="text/javascript" src="includes/easeljs.js"></script>
+    <script type="text/javascript" src="js/Ticker.js"></script>
+        
+    <script>
+      $(document).foundation(
+      {
+      	orbit: {
+      	animation: 'fade',
+      	timer_speed: 3000,
+      	bullets: false,
+      	circular: true,
+      	resume_on_mouseout: true
+      	
+      
+      	}
+      });
+    </script>
+  </body>
+</html>
+
