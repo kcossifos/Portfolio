@@ -1,0 +1,107 @@
+<!DOCTYPE>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fuzzy Friends Adoption</title>
+        <link rel="stylesheet" href="css/foundation.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/vendor/modernizr.js"></script>
+    </head>
+<body>
+    <div id="abovenav">
+        <img id="logo" src="img/logo.png">
+        <img id="quote" src="img/quote.png">
+    </div>    
+<nav>
+    <ul class="menu">
+        <li class="space"><a href="index.html">Home</a></li>
+        <li class="space"><a href="pets.html">Find a Fuzzy Friend</a></li>
+        <li class="space"><a href="pics.html">Share Your Fuzzy Friends</a></li>
+        <li class="space"><a href="#">Adoption Process</a></li>
+     </ul>
+</nav>
+<div>
+ <embed style="margin-top: -50px; width: 1288px; height:520;" type="text/html" src="../slider/deep-minified.html"></div>
+
+<section id="profile" class="Segments">
+  <h2>My Profile</h2>
+    <hr>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="container">
+      <div id="loading">Loading...</div>
+      <div id="loaded" class="hidden">
+        <div id="main">
+          <div id="user-signed-in" class="hidden">
+            <div id="user-info">
+              <div id="photo-container">
+                <img id="photo"></img>
+              </div>
+              <div id="name"></div>
+              <div id="email"></div>
+              <div class="clearfix"></div>
+            </div>
+            <p>
+              <button id="sign-out">Sign Out</button>
+              <button id="delete-account">Delete account</button>
+            </p>
+          </div>
+          <div id="user-signed-out" class="hidden">
+            <h4>You are signed out.</h4>
+            <p class="hide">
+              <button class="hide" id="sign-in-with-redirect">Sign In with Redirect</button>
+              <button class="hide" id="sign-in-with-popup">Sign In with Popup</button>
+            </p>
+           <button><a href="index.html">Go To Home Page</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="auth/app.js"></script>
+</section>
+  
+<section id="account" class="Segments">
+  <h2>Reset Your Password</h2>
+  <hr>
+  
+         <button style="width: 10%;" id="reset">Reset Password</button>
+   <p>You should recieve and email immedately to change your password.</p>
+    
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+ <div class="row">
+      <img class="medium-3 columns" src="img/logo2.png">
+         <ul  class="medium-8 columns">
+        <li><a  class="foot" href="index.html">About</a></li>
+        <li><a class="foot" href="#">Privacy</a></li>
+        <li><a class="foot" href="#">Jobs</a></li>
+        <li><a class="foot" href="#">Terms</a></li>
+        <li><a class="foot" href="#">Help</a></li>
+        <li><a class="foot" href="#">Contact Us</a></li>     
+     </ul>
+      </div>      
+    </footer>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>    
+<script src="/js/vendor/modernizr.js"></script>    
+<script>
+    $(document).foundation(
+    {
+        orbit: {
+      	animation: 'fade',
+      	timer_speed: 3000,
+      	bullets: false,
+      	circular: true,
+      	resume_on_mouseout: true
+        }
+    });
+</script>
+
+    
+    </body>
+</html>
