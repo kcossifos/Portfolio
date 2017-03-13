@@ -1,7 +1,8 @@
-# Student List
+# Fuzzy Friends Adoption
 
 ##Descripition 
-This application is a simple representation of crud in angular. The user can add a student by entering their name, degree program, and grade level. If the user wants to edit or delete the students information they can simply click on the students name. This application includes the following coding languages AngularJS, CSS, and HTML. To view this application go to [StudentList](https://kcossifos.github.io/Portfolio/StudentList/index.html)
+This application is about adopting cats from a shelter. This site allows you to filter through cats, like a cat, comment on a cats picture, and upload pictures of your own cat. The following coding languages are used for this site AngularJS, HTML, CSS and Jquery.
+To view this application go to [Fuzzy Friends Adoption](https://kcossifos.github.io/Portfolio/CatAdoption/index.html)
 
 ##Getting Started
 ```
@@ -15,49 +16,44 @@ The following directives that are used in this application
 
 **ng-app** flags the HTML element that AngularJS should consider to be the root element of the application which allows a developer to tell AngularJS what portion of the application should be treated as the AngularJS.
 
-**ng-view** complements the $route service by including the rendered template of the current route into the main layoutfile. Every time the current route changes, the included view changes with it according to the configuration of the $route service.
+**ng-controller** attaches a controller class to the view.
 
 ```
-<body ng-app="WeekThree">
-	<a class="top" href="#/students">Students</a>
-	<a class="top" href="#/add">Add a Student</a>
-   <div ng-view></div>
-</body>
+  <div  ng-app="myApp">
+  <div  ng-controller="controller">
 ```
+**ng-model** binds an input,select, textarea to a property on the scope.
 
 **ng-repeat** instantiates a template once per item from a collection. Each template instance gets its own scope, where the given loop variable is set to the current collection item, and $index is set to the item index or key.
 
 ```
-<ul>
-	<li ng-repeat="s in studentsL track by $index">
-		<a href="#/details/{{$index}}">
-		{{s.name}}
-		</a>
-	</li>
-</ul>
+<label>Age
+	<select ng-model="pet_age">
+          	<option ng-repeat="x in pets" value="{{x.age}}">{{x.age}}</option>
+	</select>
+</label>
 ```
+
 **ng-submit** enables binding AngularJS expressions to onsubmit events.
 
-**ng-model** binds an input,select, textarea to a property on the scope.
 ```
-<form ng-submit="saveStudent()">
-	<label>Student Name:<br><input ng-model="student.name" type="text"/></label><br>
-	<label>Degree Program:<br><input ng-model="student.program" type="text"/></label><br>
-	<label>Grade Level:<br><select ng-model="student.grade">
-		<option>Freshman</option>
-		<option>Sophmore</option>
-		<option>Junior</option>
-		<option>Senior</option>
-	</select></label><br>
-	<div id="top">
-	<button type="submit">Add</button>
-</div>
+<form style="margin-left: 47%;" ng-submit="uploadFile()">
+	<input type="file" name="file" id="nameImg" accept="image/*"> <br/>
+        <span>
+		<button  type="submit">Upload Image</button>
+	</span>
 </form>
+```
+
+**ng-src** allows the use of a markup like {{hash}} to be used in a src attribute. Without it the browser will fetch from the URL with the literal text {{hash}} until AngularJS replaces the expression inside {{hash}}. Using ng-src directive solves this problem.
+
+```
+<img class="img" ng-src="{{img.sms}}">  
 ```
 
 **ng-click** allows you to specify custom behavior when an element is clicked.
 ```
-<button ng-click="removeS()">Delete</button>
+<button ng-click='btn_add();'>Post Comment</button>
 ```
 
 For more information on directives go to [AngularJS](https://docs.angularjs.org/tutorial)
