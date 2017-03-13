@@ -48,10 +48,6 @@
       <select ng-model="pet_age">
           <option ng-repeat="x in pets" value="{{x.age}}">{{x.age}}</option>
 </select>
-<!--
-        <select ng-model="selectedCar" ng-options="y.brand for (x, y) in cars">
-</select>
--->
 
 </label>
     </div>
@@ -90,17 +86,14 @@
 </div>   
               
  </section>      
-<div><embed id="{{pet.name}}" type="text/html" src="../like.html"></div>
+<div><embed id="{{pet.name}}" type="text/html" src="like.html"></div>
 
  <div id="openModal{{pet.name}}" class="modalDialog">
      <div>	
 	<a href="#close" title="Close" class="close">X</a>
         <h2>{{pet.name}}</h2>
         <p>{{pet.des}}</p>
-<!--       <div class="g-plusone" data-width="300"></div>-->
-         <div><embed id="{{pet.name}}" style="width: 500px; height: 300px;"  type="text/html" src="../test.html"></div>
-    
-<!-- Place this tag where you want the +1 button to render. -->
+         <div><embed id="{{pet.name}}" style="width: 500px; height: 300px;"  type="text/html" src="test.html"></div>
     </div>
   </div>
  
@@ -131,7 +124,6 @@
 
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js'></script>
-       <!-- Place this tag in your head or just before your close body tag. -->
 <script src="https://apis.google.com/js/platform.js" async defer></script>
     <script src="auth/app.js"></script> 
     <script src="js/controller.js"></script>
