@@ -21,7 +21,8 @@ This github repo is a representation of work that I have completed throughout my
 2) [Employee Directory](https://github.com/kcossifos/Portfolio/tree/angular/EmployeeDirectory)   
 3) [Grocery List](https://github.com/kcossifos/Portfolio/tree/angular/GroceryList)    
 4) [Pokemon List](https://github.com/kcossifos/Portfolio/tree/angular/PokemonList)  
-5) [Student List](https://github.com/kcossifos/Portfolio/tree/angular/StudentList)      
+5) [Student List](https://github.com/kcossifos/Portfolio/tree/angular/StudentList)  
+6) [Cat Adoption](https://github.com/kcossifos/Portfolio/tree/angular/CatAdoption)  
 
 ####HTML/CSS
 1) [Festival Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/FestivalWebsite)  
