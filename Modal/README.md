@@ -1,6 +1,6 @@
 # Modal
 
-#Descripition
+## Descripition
 A simple modal application that uses nothing but jQuery, HTML, and CSS. To view this application go to [Modal](https://kcossifos.github.io/Portfolio/Modal/index.html)
 
 ## Getting Started
