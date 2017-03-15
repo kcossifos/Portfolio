@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--Your Name 
+	Date
+    Month
+-->
+<html>
+<head>
+<title>Weather API App</title>
+  
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script src="js/jquery.js"></script>
+<script src="js/main.js"></script>
+</head>
+
+<body>
+
+<div id="container">
+  <header> 
+      <h1>Title</h1>
+  </header>
+  
+  <div>
+  
+    <h2>Current Conditions</h2>
+      <div class="current">
+      <img src="" id="icons"/>
+      <p id="weather"></p>
+      <p id="temp"></p>
+      <p id="feel"></p>
+      <p id="humid"></p>
+      <p id="dir"></p>
+      <p id="miles"></p>
+      <!--  1. Display the icon for the current conditions (observation)
+      		2. Display weather
+            3. Display temperature in F
+            4. Display feels like temperature
+            5. Display relative humidity
+            6. Display wind direction
+            7. Display wind miles per hour
+      -->
+
+      </div>
+
+    <h2>Your Hourly 1-day forecast</h2>
+      <div class="current">
+      <p id="hourly"></p>
+      <!--  1. Display the Hourly 1-day forecast 
+      		2. Display the condition for each hour
+            3. Display the temperature for each hour
+      -->
+  </div>
+    <h2>Your 7-day forecast</h2>
+      <div class="current">
+      <img id="img">
+      <p class = "seven"></p>
+      <!--	1. Display the 7-day forecast 
+      		2. Display the icon
+      		3. Display weather
+            4. Display highs
+            5. Display lows
+            6. Display conditions
+      -->
+
+  </div>
+</div><!--Closes Container-->
+
+
+
+  <script>
+
+    <!--This is an example. Use your own API key and city location.  Copy and paste the url in your browser. It will display the needed information in a JSON file.  Use the keys to display the information on your page-->
+	
+    //	$.ajax({                             
+    //		url : "http://api.wunderground.com/api/YourAPIKeyHere/forecast/geolookup/conditions/q/MD/Baltimore.json",
+    //		dataType : "json", 
+    //          success : function(parsed_json) { 
+    //              var location = parsed_json['location']['city']; 
+    //              var temp_f = parsed_json['current_observation']['temp_f'];
+    //                  $(".class").html("Current temperature in " + location + " is: " + temp_f+"ºF");
+    //          } 
+    //	}); 
+
+  </script>
+</div>
+</body>
+</html>
