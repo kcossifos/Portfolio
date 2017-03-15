@@ -85,12 +85,12 @@ $( "#last" ).click(function() {
 ```   
 
 
-**.filter()** reduces the set of matched elements to those that match the selector or pass the function's test  
-**.end()**  end the most recent filtering operation in the current chain and return the set of matched elements to its previous state  
-**.hover()** binds two handlers to the matched elements, to be executed when the mouse pointer enters and leaves the elements
-**.toggleClass()** adds or removes one or more classes from each element in the set of matched elements  
-**.next()** gets the immediately following sibling of each element in the set of matched elements  
-**.slideDown()** displays the matched element with a sliding down motion  
+**.filter()** reduces the set of matched elements to those that match the selector or pass the function's test   
+**.end()**  end the most recent filtering operation in the current chain and return the set of matched elements to its previous state    
+**.hover()** binds two handlers to the matched elements, to be executed when the mouse pointer enters and leaves the elements  
+**.toggleClass()** adds or removes one or more classes from each element in the set of matched elements    
+**.next()** gets the immediately following sibling of each element in the set of matched elements    
+**.slideDown()** displays the matched element with a sliding down motion   
 
 
 ```
