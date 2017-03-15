@@ -20,7 +20,7 @@ jQuery UI is a curated set of user interface interactions, effects, widgets, and
 
 #### Date Picker
 
-**().datepicker()** is tied to a standard form input field  
+**datepicker()** is tied to a standard form input field  
 
 HTML File:
 ```
@@ -37,7 +37,7 @@ $('#due').datepicker();
 ```
 
 #### Button
-**().button()** enchances standard form elements
+**button()** enchances standard form elements
 
 HTML File:
 ```
