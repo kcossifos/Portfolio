@@ -14,7 +14,7 @@ Now clone this repository to get started by typing git clone https://github.com/
 Then open up the DrinksCanvasJS file
 ```
 
-# Using CanvasJS
+## Using CanvasJS
 
 #### Positioning Bars in Bar Graph
 
