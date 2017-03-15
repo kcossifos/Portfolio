@@ -1,7 +1,7 @@
 # Battleship
 
 ## Descripition 
-This application is a battleship game where the board is 7 spaces long (zero counts as a space) and a ship is 3 spaces long. The user can pick a number between 0-6 and try to hit the ship. If the user hits the ship, they are alerted. They have to "hit" all three spaces occupied by the ship to "SINK" the battleship. Once the ship is sunk, they win and are alerted to how many guesses it took to sink the battleship. To view this application go to [Battleship](https://kcossifos.github.io/Portfolio/battleship/index.html)
+This application is a battleship game where the board is 7 spaces long (zero counts as a space) and a ship is 3 spaces long. The user can pick a number between 0-6 and try to hit the ship. If the user hits the ship, they are alerted. They have to "hit" all three spaces occupied by the ship to "SINK" the battleship. Once the ship is sunk, they win and are alerted to how many guesses it took to sink the battleship. To view this application go to [Battleship](https://kcossifos.github.io/Portfolio/battleship/battleship.html)
 
 ## Getting Started
 ```
