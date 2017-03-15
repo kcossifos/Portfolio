@@ -46,10 +46,10 @@ HTML File:
 
 jQuery File:
 ```
-  $('#add').button({
-        icons: {
-            primary: "ui-icon-circle-plus"
-        }
+$('#add').button({
+      icons: {
+          primary: "ui-icon-circle-plus"
+      }
 ```
 
 
