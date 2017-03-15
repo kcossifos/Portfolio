@@ -1,22 +1,55 @@
-# Portfolio
+# To Do List
 
-#About
-This github repo is a representation of work that I have completed throughout my time at Full Sail University while studying Web Design and Development. Throughout this repo you will see numerous coding languages I have learned such as Javascript, PHP, Angular, HTML, CSS, along with varous others. In addition, you will come across work that I have created in Creative Adobe Suite like Illustrator and Photoshop. This course has not only taught me how to design and code but also to use databases. I will include explanations of my code along with snippets and sql dumps. 
+#Descripition
+A simple to do list application that allows the user to add a task, select a date, and removed the task once finished. When the task is marked as finished it then automatically moved to the finished tasks section. This application uses jQuery-UI, HTML, and CSS. To view this application go to [To Do List](https://kcossifos.github.io/Portfolio/ToDo/index.html)
 
-#Table of Contents
-####PHP  
-1) [Membership Registeration](https://github.com/kcossifos/Portfolio-/tree/PHP/Membership%20Registeration/pdocrud_mvc)  
-2) [Student Grades Report](https://github.com/kcossifos/Portfolio-/tree/PHP/Student%20Grades%20Report/pdocrud_mvc)  
-3) [Signup/Login System](https://github.com/kcossifos/Portfolio-/tree/PHP/Signup:Login%20System)  
-4) [To Do List](https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList)  
+## Getting Started
+```
+First make sure you have some kind of code editior installed on your computer
+If not, I recommed installing Atom at https://atom.io
+Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio.git
 
-####Illustrator  
-1) [Custom Symbols](https://github.com/kcossifos/Portfolio-/tree/Illustrator/CustomSymbols)  
-2) [Class Final](https://github.com/kcossifos/Portfolio-/tree/Illustrator/IllustratorFinal)  
-3) [Desktop Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Desktop%20Wireframes)  
-4) [Mobile Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Mobile%20Wireframes)  
+```
 
-#Contact Information  
-**Email:** kcossifos@gmail.com  
-**Phone Number:** (845)-662-5063  
-**Social Media:** [Linkedin](https://www.linkedin.com/in/kcossifos/)  
+## jQuery-UI
+jQuery UI is a curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library. It allows the user to pick their own theme and to customize that theme as needed. To get more information and to download it go to [jQuery-UI](https://jqueryui.com)
+
+
+
+## Using jQuery-UI
+
+#### Date Picker
+
+**().datepicker()** is tied to a standard form input field. 
+
+HTML File:
+```
+<p>
+  <label for="due">Due Date: </label>
+  <input type="text" name="due" id="due">
+</p>
+```                
+
+jQuery File:
+```
+$('#due').datepicker();
+
+```
+
+#### Button
+**().button()** enchances standard form elements
+
+HTML File:
+```
+<button id="add">Add a todo item</button>
+```
+
+jQuery File:
+```
+  $('#add').button({
+        icons: {
+            primary: "ui-icon-circle-plus"
+        }
+```
+
+
