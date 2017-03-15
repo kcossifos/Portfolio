@@ -11,7 +11,6 @@ CanvasJS is a powerful and light weight Charting Library built on top of HTML5 &
 First make sure you have some kind of code editior installed on your computer
 If not, I recommed installing Atom at https://atom.io
 Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio.git
-Then open up the DrinksCanvasJS file
 ```
 
 ## Audio 
