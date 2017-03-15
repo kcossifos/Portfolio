@@ -34,7 +34,7 @@ This github repo is a representation of work that I have completed throughout my
 1) [DrinksCanvasJS](https://github.com/kcossifos/Portfolio/tree/Javascript/DrinksCanvasJS)  
 2) [FightGame](https://github.com/kcossifos/Portfolio/tree/Javascript/FightGame)    
 3) [FloridaCanvasJS](https://github.com/kcossifos/Portfolio/tree/Javascript/FloridaCanvasJS)    
-4) [JSON&Javascript](https://github.com/kcossifos/Portfolio/tree/Javascript/Javascript%26JSON)    
+4) [Javascript&JSON](https://github.com/kcossifos/Portfolio/tree/Javascript/Javascript%26JSON)    
 5) [Battleship](https://github.com/kcossifos/Portfolio/tree/Javascript/battleship)  
 
 #### jQuery 
