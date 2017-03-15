@@ -1,4 +1,4 @@
-# Student List
+# Drinks CanvasJS
 
 ## Descripition 
 This application informs a user about alcohol such as the use of alcohol based on age and how alcohol differs between genders. The information is displayed by using a bar graph and clickable icons. The following coding languages were used to build this application CanvasJS, jQuery, CSS, and HTML. In additon, this application is using a foundation framework. To view this application go to [DrinksCanvasJS](https://kcossifos.github.io/Portfolio/DrinksCanvasJS/index.html)
