@@ -35,21 +35,21 @@ $("p").text("Congrats You've Signed Up!");
 **.fadeIn()** displays the matched elements by fading them to opaque  
 **.find()** gets the descendants of each element in the current set of matched elements, filtered by a selector, jQuery object, or element  
 **.show()** displays the matched elements   
+
 ```
- $('#info').click( function(event){
+$('#info').click( function(event){
       event.preventDefault();
       $("#mid").fadeIn(2000).find('#term').show(1500);
-
   });
 ```
 **.fadeOut()** hides the matched elements by fading them to transparent  
 **.hide()** hides the matched element  
+
 ```
-  $("#close").click(function(event){
-        event.preventDefault();
-        $('#mid').fadeOut(3000).find('#term').hide(2000);
-    });
-    
+$("#close").click(function(event){
+      event.preventDefault();
+      $('#mid').fadeOut(3000).find('#term').hide(2000);
+  });
 ```
 
 
@@ -60,17 +60,15 @@ $("p").text("Congrats You've Signed Up!");
  $("#last").mouseenter(function() {
      $(".mone").css("background-color", "gray");
  });
-
 ```   
  
  **.mouseleave()** binds an event handler to be fired when the mouse leaves an element, or trigger that handler on an element  
  
  
  ```
-     $("#last").mouseleave(function() {
-        $(".mone").css("background-color", "white");
-    });
-    
+$("#last").mouseleave(function() {
+    $(".mone").css("background-color", "white");
+ });
  ```  
  
  
@@ -80,8 +78,7 @@ $("p").text("Congrats You've Signed Up!");
 ```
 $( "#last" ).click(function() {
       $( "p" ).toggle();
-  });
-  
+ });
 ```   
 
 
@@ -95,8 +92,7 @@ $( "#last" ).click(function() {
 
 ```
 $( "tr" ).filter( ":odd" ).hide().end().filter( ":even" ).hover(function() {
-        $( this ).toggleClass( "active" ).next().slideDown();
- });
- 
+    $( this ).toggleClass( "active" ).next().slideDown();
+});
 ```
 
