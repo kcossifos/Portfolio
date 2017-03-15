@@ -1,0 +1,53 @@
+body {
+	margin-left: 5%;
+	margin-right: 5%;
+	background: #FFF url("../images/paper.jpg") repeat-x top center;
+}
+
+#bord {
+	border: 6px solid #261825;
+	padding-top: 2%;
+	padding-left: 2%;
+	background-color: #FFF;
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 5em;
+}
+input {
+	width: 92%;
+	height: 2.1em;
+}
+label {
+	font-size: 1.2em;
+}
+
+#saves {
+	margin-left: -.4%;
+	height: 30px;
+	padding-top: .5%;
+	padding-bottom: .8%;
+	background-color: #E0E0E0;
+	font-weight: bold;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	border-bottom: 2px solid #000;
+	width: 90%;
+	margin-top: 1%;
+}
+
+#dbtn {
+	width: 2.5%;
+	height: 1%;
+	float: right;
+	padding-bottom: -.5%;
+	background-color: #E0E0E0;
+	font-weight: bold;
+}

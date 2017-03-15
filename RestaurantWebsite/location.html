@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Bonafide Restaurant</title>
+  <meta name="description" content="Protfolio for world-rewowned travel photographer Amy McAdams.">
+  <meta name="author" content="Kelsey Cossifos">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+  
+  
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="css/mpopup.css">
+
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+   
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+<header class="main_nav green">
+	<div class="container">
+		<div class="tweleve columns">
+			<div class="left"><a href="index.html"><img src="images/rest.jpg" alt="logo"/></a></div>
+			<div class="right"><a href="index.html">Home</a></div>
+			<div class="right"><a href="menu.html">Menu</a></div>
+			<div class="right"><a href="hours.html">Hours</a></div>
+			<div class="right"><a href="location.html">Location</a></div>
+			<div class="right"><a href="faqs.html">FAQs</a></div>
+			<div class="right"><a href="Contact.html">Contact Us</a></div>
+		</div>
+	</div>
+</header>
+
+<div class="container main">
+	<div class="twelve columns">
+		<div  class="tweleve columns">
+		<h2 class="size">Location</h2>
+		</div>
+		
+		<div class="loc" class="six columns">
+	
+			<p>Bonafide Restaurant, 601-B S New York Ave, Winter Park, FL, 32789.
+			Phone: 407-228-3898</p>
+
+			<p>We are located just north of downtown Orlando in Winter Park at the corner of Fairbanks Avenue and New York Avenue, one block west of Park Avenue. See a map of our location below. </p>
+
+			<p>Free parking is available in our private parking lot, with an additional overflow lot located across New York Avenue behind Florida Capital Bank. More information on overflow parking is below. Our indoor dining room seats approximately 110 guests. Free WiFi is available. Our entire facility is wheelchair accessible.</p>
+		</div>		
+	</div>	
+		<div class="tweleve columns">
+		<h2 class="size">Parking</h2>
+		</div>
+		
+		<div class="loc" class="six columns">
+	
+			<p>Free parking for our guests is available in either the large private parking lot outside of our front door (accessible from Fairbanks Avenue) or the smaller lot off of New York Avenue. Both lots are reserved for Winter Park Plaza use only, which includes Bonafide!</p>
+
+			<p>Tip: If you will be headed west on Fairbanks after leaving our restaurant, you may find it easiest to park in the New York lot and then make your left onto Fairbanks at the traffic light at Fairbanks and New York.</p>
+
+			<p>While parking is plentiful, we do share the lot with the other tenants of Winter Park Plaza. On occasion our lots will fill up due to high demand or nearby events. In addition to street parking on side streets, the City of Winter Park provides a number of public parking lots nearby.</p>
+
+			<p>If you need help finding an alternate parking spot while behind the wheel, please call us at 407-228-3898 for assistance - we are happy to help! </p>
+		</div>		
+</div>
+	
+<div id="red">
+	<div class="container">
+		<div class="twelve columns">
+		</div>
+	</div>	
+</div>
+
+<footer>
+	<div class="container">
+		<div class="row tweleve columns">
+			<p class="copyright">&copy; 2007 Bonafide Restaurant. All Rights Reserved.</p>
+		</div>	
+	</div>				
+</footer>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="java/main.js"></script>
+  <script type="text/javascript">
+  $('.image-link').magnificPopup({
+  type: 'image',
+  mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+  zoom: {
+    enabled: true, // By default it's false, so don't forget to enable it
+
+    duration: 300, // duration of the effect, in milliseconds
+    easing: 'ease-in-out', // CSS transition easing function
+
+    // The "opener" function should return the element from which popup will be zoomed in
+    // and to which popup will be scaled down
+    // By defailt it looks for an image tag:
+    opener: function(openerElement) {
+      // openerElement is the element on which popup was initialized, in this case its <a> tag
+      // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+      return openerElement.is('img') ? openerElement : openerElement.find('img');
+    }
+  }
+
+});
+  </script>
+</body>
+</html>

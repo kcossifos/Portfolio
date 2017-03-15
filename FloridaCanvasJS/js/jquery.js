@@ -1,0 +1,5 @@
+$(function(){
+	$("audio").hide();
+});
+
+

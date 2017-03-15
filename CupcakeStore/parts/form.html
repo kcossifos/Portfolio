@@ -1,0 +1,18 @@
+<div class="left">
+<div class="back">
+<h1>Cupcake Menu</h1>
+<image src="images/cupcake.jpg" width="259px" height="194px"></image>
+<form ng-submit="saveCupCake()">
+<label>Cake Flavor: <input type="text" ng-model="cake.flavor"></input></label><br>
+<label>Frosting Flavor: <input type="text" ng-model="cake.frosting"></input></label><br>
+<label>Topping: <input type="text" ng-model="cake.topping"></input></label><br>
+<label>Decoration: <select ng-model="cake.decor">
+	<option>Star</option>
+	<option>Heart</option>
+	<option>Swirl</option>
+</select></label><br>
+<br>
+<button type="submit">Add Cupcake</button>
+</form>	
+</div>
+</div>

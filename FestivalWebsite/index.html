@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Tomorrow</title>
+  <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+<link href="css/main.css" rel="stylesheet" media="screen, projection">
+<link href="css/transitions.css" rel="stylesheet" media="screen, projection">
+<script type="text/javascript" src="scripts/jquery.1.7.1.min.js"></script>
+<script type="text/javascript" src="scripts/modernizr.2.5.3.min.js"></script>
+<script type="text/javascript">
+	$(function () {
+		if ($('html').hasClass('csstransforms3d')) {	
+			$('.picTmw').removeClass('slide').addClass('flip');		
+			$('.picTmw.flip').hover(
+				function () {
+					$(this).find('.pic').addClass('theFlip');
+				},
+				function () {
+					$(this).find('.pic').removeClass('theFlip');			
+				}
+			);
+		} else {
+			$('.picTmw').hover(
+				function () {
+					$(this).find('.detail').stop().animate({bottom:0}, 500, 'easeOutCubic');
+				},
+				function () {
+					$(this).find('.detail').stop().animate({bottom: ($(this).height() * -1) }, 500, 'easeOutCubic');			
+				}
+			);
+
+		}
+	
+	});
+	</script>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<script type="text/xml">
+</script>
+</head>
+<body>
+<header class="homeHeader pageHeader">
+<h1>Tomorrow World! <a href="/index.htm" title="home"></a></h1>
+<nav id="pageNav" class="cf">
+  <ul>
+    <li><a href="index.html" title="Welcome">Welcome</a></li>
+    <li><a href="tickets.html" title="Tickets">2015 Tickets</a></li>
+    <li><a href="pg.html" title="Photo Gallery">Media</a></li>
+    <li><a href="# title="Getting Here">Getting Here</a></li>
+    <li><a href="#" title="2015 Lineup">2015 Lineup</a></li>
+    <li><a href="# title="Faq">FAQ</a></li>
+  </ul>
+</nav>
+<figure><img src="images/night.jpg" alt="night"></figure>
+
+</header>
+
+<div id="Tomorrow">
+<div  class="picTmw slide">
+  <div class="pic"> <img src="images/theme.jpg"> 
+  </div>
+</div>
+<div class="picTmw slide">
+  <div id="brasil" class="pic"> <img src="images/brasil.jpg">
+     </div>
+  </div>
+</div>
+
+<div id="mobtom">
+  <div class="mversion"> <img src="images/mobilet.jpg"> 
+  </div>
+  <div class="mversion"> <img src="images/mobileb.jpg">
+     </div>
+</div>
+
+<div id="bon">
+<a class="button" href="tickets.html">Buy Tickets</a>
+</div>
+<div id="btwo">
+<a class="button" href="tickets.html">Buy Tickets</a>
+</div>
+</body>
+</html>

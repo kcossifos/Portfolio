@@ -1,0 +1,140 @@
+<!DOCTYPE>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fuzzy Friends Adoption</title>
+        <link rel="stylesheet" href="css/foundation.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/vendor/modernizr.js"></script> 
+    </head>
+    
+<body>
+    <div id="abovenav">
+        <img id="logo" src="img/logo.png">
+        <img id="quote" src="img/quote.png">
+         <button id="sign"><a href="auth/widget.html">Login or Sign Up!</a></button>   
+    </div>  
+<nav>
+    <ul class="menu">
+         <li class="space"><a href="index.html">Home</a></li>
+        <li class="space"><a href="pets.html">Find a Fuzzy Friend</a></li>
+        <li class="space"><a href="pics.html">Share Your Fuzzy Friends</a></li>
+        <li class="space"><a href="#">Adoption Process</a></li>
+     </ul>
+</nav>
+      <div  ng-app="myApp">
+  <div  ng-controller="controller">
+<section>   
+    <img id="cat" src="img/siberian-cat1.jpg">
+<div id="back" class="tabs-content">
+   <form>
+  <div class="row">
+    <div id="input1" class="medium-6 columns">
+      <label>Location
+        <input ng-model="pet_location" type="text" class="form-control empty" />
+      </label>
+    </div>
+    <div class="medium-6 columns">
+      <label>Breed
+        <input ng-model="pet_breed" type="text">
+      </label>
+    </div>
+  </div>
+<div class="row">
+        <div id="input2" class="medium-4 columns">
+
+    <label>Age
+      <select ng-model="pet_age">
+          <option ng-repeat="x in pets" value="{{x.age}}">{{x.age}}</option>
+</select>
+
+</label>
+    </div>
+<div id="input3" class="medium-4 columns">
+
+      <label>Gender
+  <select ng-model="pet_gender">
+      <option ng-repeat="y in pets" value="{{y.gender}}">{{y.gender}}</option>
+</select>
+  
+    </div>            
+</div>       
+</form>
+</section>       
+     
+<section id="fuzzy" class="adopt">
+    <h2>Fuzzy Friends Available for Adoption</h2>
+    <hr>
+
+    
+    <div class="pets" ng-repeat="pet in pets = (pets | filter:{name: pet_name, location:pet_location, breed:pet_breed, gender:pet_gender, age:pet_age, image:pet_image, des:pet_des})">
+    
+               
+          <section class="overlay-container">
+      <img class="eachPet" src="{{pet.image}}">
+             
+          <div class="overlay">
+        <p class="petInfo">Location: {{pet.location}}</p>
+           <p class="petInfo">Name: {{pet.name}}</p>
+           <p class="petInfo">Age: {{pet.age}}</p>
+           <p class="petInfo">Breed: {{pet.breed}}</p>
+           <p class="petInfo">Gender: {{pet.gender}}</p>
+<a  href="#openModal{{pet.name}}">Click Here For More Information</a> 
+              
+         
+</div>   
+              
+ </section>      
+<div><embed id="{{pet.name}}" type="text/html" src="like.html"></div>
+
+ <div id="openModal{{pet.name}}" class="modalDialog">
+     <div>	
+	<a href="#close" title="Close" class="close">X</a>
+        <h2>{{pet.name}}</h2>
+        <p>{{pet.des}}</p>
+         <div><embed id="{{pet.name}}" style="width: 500px; height: 300px;"  type="text/html" src="test.html"></div>
+    </div>
+  </div>
+ 
+        
+  </div>  
+      
+  </div>
+</div>
+</section>
+      
+      
+      
+      
+<!-- Footer -->
+<footer style="margin-bottom: -1200px;"id="footer">
+ <div class="row">
+      <img class="medium-3 columns" src="img/logo2.png">
+         <ul  class="medium-8 columns">
+        <li><a  class="foot" href="index.html">About</a></li>
+        <li><a class="foot" href="#">Privacy</a></li>
+        <li><a class="foot" href="#">Jobs</a></li>
+        <li><a class="foot" href="#">Terms</a></li>
+        <li><a class="foot" href="#">Help</a></li>
+        <li><a class="foot" href="#">Contact Us</a></li>     
+     </ul>
+      </div>      
+</footer>
+
+
+  <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js'></script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script src="auth/app.js"></script> 
+    <script src="js/controller.js"></script>
+    <script src="js/apps.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>    
+<script src="/js/vendor/modernizr.js"></script> 
+      
+	
+      <script> console.log(currentUser)</script>
+
+</body>
+</html>
+

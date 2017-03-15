@@ -1,0 +1,32 @@
+.back {
+	margin-left: 400px;
+	height: 500px;
+	font-size: 20px;
+}
+
+.left {
+	background-color: #FFECE6;
+}
+
+input {
+	margin-bottom: 20px;
+}
+
+button {
+	height: 20px;
+	width: 120px;
+	background-color: pink;
+}
+
+ul {
+	background-color: #FFECE6;
+}
+
+li {
+	margin-bottom: 20px;
+}
+
+#float {
+	float: right;
+	margin-right: 300px;
+}

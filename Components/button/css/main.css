@@ -1,0 +1,81 @@
+body {
+    font-family: "Exo 2",sans-serif;
+    padding-top: 5em;
+    width: 70%;
+    height: 550px;
+    margin: 0 auto;
+    background-color: #F0EDEC;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+    font-family: 'Exo 2',sans-serif;
+    font-size: 2.5rem;
+    line-height: 3rem; 
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    color: #333;
+    text-align: center;
+    font-family: 'Exo 2',sans-serif;
+    margin-top: 6% 2% 0 2%;
+    line-height: 1.5rem;
+}
+
+a:active {
+    background-color: transparent;
+}
+
+a {
+    background: #FF7592;
+    padding: 3% 4.5%;
+    display: block;
+    text-align: center;
+    width: 10%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: 'Exo 2',sans-serif;
+    overflow: hidden;
+    border: 1px solid #FF7592;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    border: 1px solid #FFBAC9;
+    margin-top: 64px;
+    box-shadow: 0px 0px 0px 3px #FF7592;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    
+}
+
+a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 0;
+    width: 0;
+    background: #FFF;
+    top: 30px;
+    color: #FF7592;
+}
+
+a:hover::after {
+    width: 15rem;
+    top: -180px;
+    height: 20rem;
+    left: -40px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    color: #FF7592;
+}

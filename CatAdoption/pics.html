@@ -1,0 +1,94 @@
+<!DOCTYPE>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fuzzy Friends Adoption</title>
+        <link rel="stylesheet" href="css/foundation.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <script src="js/vendor/modernizr.js"></script>
+    </head>
+<body id="ppage">
+    <div id="abovenav">
+        <img id="logo" src="img/logo.png">
+        <img id="quote" src="img/quote.png">
+        <button id="sign"><a href="auth/widget.html">Login or Sign Up!</a></button>    
+    </div>  
+<nav>
+    <ul class="menu">
+        <li class="space"><a href="index.html">Home</a></li>
+        <li class="space"><a href="pets.html">Find a Fuzzy Friend</a></li>
+        <li class="space"><a href="pics.html">Share Your Fuzzy Friends</a></li>
+        <li class="space"><a href="#">Adoption Process</a></li>
+     </ul>
+</nav>
+    
+    <div>
+ <embed style="margin-top: -50px; width:100%; height:520;" type="text/html" src="slider/deep-minified.html"></div>
+    
+        <h2>Upload a Picture of Your Fuzzy Friend</h2>
+    <hr>
+<div ng-app='imgbase'>
+    
+        
+  <div ng-controller='fireController'>
+      
+
+      <form style="margin-left: 47%;" ng-submit="uploadFile()">
+        <input type="file" name="file" id="nameImg" accept="image/*">
+        <br />
+        <span>
+                <button  type="submit">Upload Image
+                </button>
+          </span>
+      </form>
+      
+       <section id="fuzzy" class="adopt">
+    <h2>Pictures of People's Fuzzy Friends</h2>
+    <hr>
+      <div  ng-repeat="img in imgs | toArray | orderBy: '-date'">
+            <section class="overlay-container">
+             <div class="overlay">  
+             <a  href="#openModal">Click Here To Comment On This Furry Friend</a> 
+             </div>   
+          
+        <img class="img" ng-src="{{img.sms}}">    
+      </div>
+          </section>
+  </div>
+</div>
+
+ <div id="openModal" class="modalDialog">
+     <div>	
+	<a href="#close" title="Close" class="close">X</a>
+      <div><embed  style="width: 500px; height: 300px;"  type="text/html" src="test.html"></div>
+    
+    </div>
+  </div>
+ 
+        
+  </div>  
+        
+    </section>
+    
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/angular-filter/0.5.8/angular-filter.js'></script>
+<script src="js/index.js"></script>    
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>    
+<script src="/js/vendor/modernizr.js"></script>
+<script>
+    $(document).foundation(
+    {
+        orbit: {
+      	animation: 'fade',
+      	timer_speed: 3000,
+      	bullets: false,
+      	circular: true,
+      	resume_on_mouseout: true
+        }
+    });
+</script>
+    </body>
+</html>

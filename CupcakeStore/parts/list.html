@@ -1,0 +1,11 @@
+<div class="left">
+<div class="back">
+<h1>Cupcakes</h1>
+<ul>
+ <li ng-repeat="c in cupCake track by $index">
+ 	<a href="#/detail/{{$index}}">
+ {{c.flavor}}
+ </li>
+ </ul>	
+</div>
+</div>

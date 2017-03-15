@@ -1,0 +1,22 @@
+  <html ng-app>
+<head>
+    <meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+</head>
+<body>
+   <div id='dv1'>
+                Post A Comment About This Fuzzy Friend
+                <form ng-controller="controller">
+                    <textarea ng-model="txtcomm" placeholder="Your Comment" style='width:400px'></textarea><br>
+                    <button ng-click='btn_add();' style='margin-top:10px;'>Post Comment</button>
+ 
+                    <h4>Comments</h4>
+                    <ul>
+                        <li ng-repeat="com in comment"> {{ com }} <a  style="" href="" ng-click="item($index)">x</a></li>
+                    </ul>
+                </form> 
+        </div>
+</body>
+</html>
+    
+        <script src="js/app.js"></script>
