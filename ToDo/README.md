@@ -1,6 +1,6 @@
 # To Do List
 
-#Descripition
+# Descripition
 A simple to do list application that allows the user to add a task, select a date, and removed the task once finished. When the task is marked as finished it then automatically moved to the finished tasks section. This application uses jQuery-UI, HTML, and CSS. To view this application go to [To Do List](https://kcossifos.github.io/Portfolio/ToDo/index.html)
 
 ## Getting Started
