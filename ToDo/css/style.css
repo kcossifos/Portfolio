@@ -1,0 +1,96 @@
+
+body {
+    font: 100%/1.2  Arial, sans-serif;
+    background-color: #1C1C1C;
+    color: black;
+}
+
+.container {
+    position: relative;
+    margin: 100px auto;
+    background-color: #DDDDDD;
+    width: 800px;
+    height: 800px;
+    border: 5px solid darkgray;
+    border-radius: 5px;
+}
+
+h2, h3 {
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 3px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+
+button {
+    margin-left: 300px;
+    margin-top: 110px;
+}
+
+ul {
+    padding-left: 10px;
+    list-style-type: square;
+}
+
+#list, #finished {
+    margin: 0.5em 0 0 0;
+    padding: 0.2em 0 0 0;
+    list-style: none;
+    font-size: 1.5em;
+}
+
+#list li, #finished li {
+    border: 1px solid rgba(0,0,0,0.3);
+    padding-top: .1em;
+    line-height: 170%;
+    margin-top: .2em;
+
+}
+
+#list .due, #finished .due {
+    display: inline-block;
+}
+
+#list .task, #finished .task {
+    width: 60%;
+    display: inline-block;
+}
+
+.delete, .done {
+    font-family:  Verdana, Arial, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    margin: 5px 5px;
+    cursor: pointer;
+    line-height: 130%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.done {
+    float: left;
+    margin-right: 5px;
+}
+
+.delete {
+    float: right;
+}
+
+.delete:hover {
+    background-color: red;
+    color: black;
+}
+
+#list .done:hover {
+    background-color: green;
+    color: black;
+}
+
+#finished .done {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    cursor: default;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>To Do List</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="js/plugins/jquery-ui-1.11.4.custom/jquery-ui.min.js" rel="stylesheet" type="text/css">
+    <link href="js/plugins/jquery-ui-1.11.4.custom/jquery-ui.structure.min.css" rel="stylesheet" type="text/css">
+    <link href="js/plugins/jquery-ui-1.11.4.custom/jquery-ui.theme.min.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <button id="add">Add a todo item</button>
+
+        <div id="to-do">
+            <h2>To Do List</h2>
+            <ul id="list" class="sort">
+            </ul>
+        </div>
+
+        <div id="complete">
+            <h3>Finished Tasks</h3>
+            <ul id="finished" class="sort">
+            </ul>
+        </div>
+
+        <div id="new" title="Add to-do item">
+            <form>
+                <p>
+                    <label for= "task">Task Name: </label>
+                    <input type="text" name="task" id="task">
+                </p>
+                <p>
+                    <label for="due">Due Date: </label>
+                    <input type="text" name="due" id="due">
+                </p>
+            </form>
+        </div>
+    </div>
+<script src="js/jquery.js"></script>
+<script src="js/plugins/jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
