@@ -1,6 +1,6 @@
 # Javascript & JSON
 
-# Description
+## Description
 This is a small application that demonstrates how Javascript, HTML, and JSON work together. 
 
 ## Getting Started
