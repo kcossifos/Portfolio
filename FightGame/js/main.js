@@ -1,11 +1,3 @@
-/**
- * Duel Fight Game - FINISHED
- * Date: Kelsey Cossifos
-
- Assignment 1
- Part 1/3 of series
-*/
-
     console.log("FIGHT!!!");
 
     // Player Names, Damage, and Health
