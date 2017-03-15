@@ -15,9 +15,9 @@ Then open up the DrinksCanvasJS file
 ```
 
 ## Audio 
-**audio** element allows audio to be played in an HTML file.
-**controls** attribute adds audio controls, like play, pause, and volume.
-**source** element allows specification of alternative audio files which the browser may choose from.
+**audio** element allows audio to be played in an HTML file  
+**controls** attribute adds audio controls, like play, pause, and volume  
+**source** element allows specification of alternative audio files which the browser may choose from    
 
 ```
 <audio controls autoplay>
@@ -26,7 +26,7 @@ Then open up the DrinksCanvasJS file
 </audio>
 ```
 
-## CanvasJS
+## Using CanvasJS
 
 #### Making a map interactive
 
