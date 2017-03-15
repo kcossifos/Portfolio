@@ -14,15 +14,18 @@ Then open up the DrinksCanvasJS file
 ## HTML DOM Element Objects
 The following HTML DOM elements that are used in this application
 
-**addEventListener()** method attaches an event handler to the specified element
-**getElementById()** method returns the element that has the ID attribute with the specified value
+**addEventListener()** method attaches an event handler to the specified element  
+**getElementById()** method returns the element that has the ID attribute with the specified value  
 
 HTML File:
+
 ```
 <button id="battle" type="button">Start Game</button>
 ```
 
+
 Javascript File:
+
 ```
 var x = document.getElementById("battle");
 x.addEventListener("click", game, false);
