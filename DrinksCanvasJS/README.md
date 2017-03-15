@@ -6,7 +6,7 @@ This application informs a user about alcohol such as the use of alcohol based o
 ## CanvasJS
 CanvasJS is a powerful and light weight Charting Library built on top of HTML5 & JavaScript, that includes numerous amount of features. For more information and to download CanvasJS click [here](http://canvasjs.com)
 
-## Download Project
+## Getting Started
 ```
 First make sure you have some kind of code editior installed on your computer
 If not, I recommed installing Atom at https://atom.io
