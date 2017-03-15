@@ -1,4 +1,4 @@
-# Drinks CanvasJS
+# Fight Game
 
 ## Descripition 
 This application is a fighting game where the user can pick if its Sailor Moon vs Sailor Mars or Goku vs Vegeta. After the user picks the players, they simply click the fight button until one of the players health points hit zero and a winner is declared. The following coding languages were used to build this application Javascript, CSS, and HTML with a foundation frameowkr. In additon, I have made a flowchart for this application. Click [here](https://github.com/kcossifos/Portfolio/blob/Javascript/FightGame/FlowChart.pdf) to view the Fight Game flowchart. To view this application go to [FightGame](https://kcossifos.github.io/Portfolio/FightGame/index.html)
