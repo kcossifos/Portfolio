@@ -30,6 +30,18 @@ This github repo is a representation of work that I have completed throughout my
 3) [Restaurant Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/RestaurantWebsite)    
 4) [SailorMoon Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/SailorMoonWebsite)    
 
+#### Javascript
+1) [DrinksCanvasJS](https://github.com/kcossifos/Portfolio/tree/Javascript/DrinksCanvasJS)  
+2) [FightGame](https://github.com/kcossifos/Portfolio/tree/Javascript/FightGame)    
+3) [FloridaCanvasJS](https://github.com/kcossifos/Portfolio/tree/Javascript/FloridaCanvasJS)    
+4) [JSON&Javascript](https://github.com/kcossifos/Portfolio/tree/Javascript/Javascript%26JSON)    
+5) [Battleship](https://github.com/kcossifos/Portfolio/tree/Javascript/battleship)  
+
+#### jQuery 
+1) [Modal](https://github.com/kcossifos/Portfolio/tree/Jquery/Modal)  
+2) [To Do List](https://github.com/kcossifos/Portfolio/tree/Jquery/ToDo)    
+
+
 # Contact Information    
 **Email:** kcossifos@gmail.com  
 **Phone Number:** (845)-662-5063  
