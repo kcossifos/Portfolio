@@ -1,4 +1,4 @@
-# Drinks CanvasJS
+# Florida CanvasJS
 
 ## Descripition 
 This application informs a user about the state of Florida and the top five cities in the state. The information is displayed by using a bar graph and clickable icons. The following coding languages were used to build this application CanvasJS, jQuery, CSS, and HTML with a foundation frameowkr. In additon, this application has music playing in the background. To view this application go to [FloridaCanvasJS](https://kcossifos.github.io/Portfolio/FloridaCanvasJS/index.html)
