@@ -1,22 +1,31 @@
-# Portfolio
+# Battleship
 
-#About
-This github repo is a representation of work that I have completed throughout my time at Full Sail University while studying Web Design and Development. Throughout this repo you will see numerous coding languages I have learned such as Javascript, PHP, Angular, HTML, CSS, along with varous others. In addition, you will come across work that I have created in Creative Adobe Suite like Illustrator and Photoshop. This course has not only taught me how to design and code but also to use databases. I will include explanations of my code along with snippets and sql dumps. 
+## Descripition 
+This application is a battleship game where the board is 7 spaces long (zero counts as a space) and a ship is 3 spaces long. The user can pick a number between 0-6 and try to hit the ship. If the user hits the ship, they are alerted. They have to "hit" all three spaces occupied by the ship to "SINK" the battleship. Once the ship is sunk, they win and are alerted to how many guesses it took to sink the battleship. To view this application go to [Battleship](https://kcossifos.github.io/Portfolio/battleship/index.html)
 
-#Table of Contents
-####PHP  
-1) [Membership Registeration](https://github.com/kcossifos/Portfolio-/tree/PHP/Membership%20Registeration/pdocrud_mvc)  
-2) [Student Grades Report](https://github.com/kcossifos/Portfolio-/tree/PHP/Student%20Grades%20Report/pdocrud_mvc)  
-3) [Signup/Login System](https://github.com/kcossifos/Portfolio-/tree/PHP/Signup:Login%20System)  
-4) [To Do List](https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList)  
+## Getting Started
+```
+First make sure you have some kind of code editior installed on your computer
+If not, I recommed installing Atom at https://atom.io
+Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio.git
+Then open up the DrinksCanvasJS file
+```
 
-####Illustrator  
-1) [Custom Symbols](https://github.com/kcossifos/Portfolio-/tree/Illustrator/CustomSymbols)  
-2) [Class Final](https://github.com/kcossifos/Portfolio-/tree/Illustrator/IllustratorFinal)  
-3) [Desktop Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Desktop%20Wireframes)  
-4) [Mobile Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Mobile%20Wireframes)  
+## HTML DOM Element Objects
+The following HTML DOM elements that are used in this application
 
-#Contact Information  
-**Email:** kcossifos@gmail.com  
-**Phone Number:** (845)-662-5063  
-**Social Media:** [Linkedin](https://www.linkedin.com/in/kcossifos/)  
+**addEventListener()** method attaches an event handler to the specified element
+**getElementById()** method returns the element that has the ID attribute with the specified value
+
+HTML File:
+```
+<button id="battle" type="button">Start Game</button>
+```
+
+Javascript File:
+```
+var x = document.getElementById("battle");
+x.addEventListener("click", game, false);
+```
+
+
