@@ -1,22 +1,67 @@
-# Portfolio
+# Drinks CanvasJS
 
-#About
-This github repo is a representation of work that I have completed throughout my time at Full Sail University while studying Web Design and Development. Throughout this repo you will see numerous coding languages I have learned such as Javascript, PHP, Angular, HTML, CSS, along with varous others. In addition, you will come across work that I have created in Creative Adobe Suite like Illustrator and Photoshop. This course has not only taught me how to design and code but also to use databases. I will include explanations of my code along with snippets and sql dumps. 
+## Descripition 
+This application is a fighting game where the user can pick if its Sailor Moon vs Sailor Mars or Goku vs Vegeta. After the user picks the players, they simply click the fight button until one of the players health points hit zero and a winner is declared. The following coding languages were used to build this application Javascript, CSS, and HTML with a foundation frameowkr. In additon, I have made a flowchart for this application. Click [here](https://github.com/kcossifos/Portfolio/blob/Javascript/FightGame/FlowChart.pdf) to view the Fight Game flowchart. To view this application go to [FightGame](https://kcossifos.github.io/Portfolio/FightGame/index.html)
 
-#Table of Contents
-####PHP  
-1) [Membership Registeration](https://github.com/kcossifos/Portfolio-/tree/PHP/Membership%20Registeration/pdocrud_mvc)  
-2) [Student Grades Report](https://github.com/kcossifos/Portfolio-/tree/PHP/Student%20Grades%20Report/pdocrud_mvc)  
-3) [Signup/Login System](https://github.com/kcossifos/Portfolio-/tree/PHP/Signup:Login%20System)  
-4) [To Do List](https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList)  
+## Getting Started
+```
+First make sure you have some kind of code editior installed on your computer
+If not, I recommed installing Atom at https://atom.io
+Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio.git
+Then open up the DrinksCanvasJS file
+```
 
-####Illustrator  
-1) [Custom Symbols](https://github.com/kcossifos/Portfolio-/tree/Illustrator/CustomSymbols)  
-2) [Class Final](https://github.com/kcossifos/Portfolio-/tree/Illustrator/IllustratorFinal)  
-3) [Desktop Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Desktop%20Wireframes)  
-4) [Mobile Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Mobile%20Wireframes)  
+## HTML DOM Element Objects
+The following HTML DOM elements that are used in this application
 
-#Contact Information  
-**Email:** kcossifos@gmail.com  
-**Phone Number:** (845)-662-5063  
-**Social Media:** [Linkedin](https://www.linkedin.com/in/kcossifos/)  
+**querySelector()** method returns the first child element that matches a specified CSS selector(s) of an element.
+
+HTML File:
+```
+<div id="scores">
+	<div id="kabal">
+		<p id ="startfight"></p>
+		<p id = "health">100</p>
+
+	</div>
+
+	<div id="kratos">
+		<p id="startfight2"></p>
+		<p id="health2">100</p>
+	</div>
+	<div class="clear"></div>
+</div>
+```
+
+Javascript File:
+```
+  document.querySelector("#health").innerHTML = players[0].health;
+  document.querySelector("#health2").innerHTML = players[1].health;
+  document.querySelector("#startfight").innerHTML = players[0].name;
+  document.querySelector("#startfight2").innerHTML = players[1].name;
+```
+
+**addEventListener()** method attaches an event handler to the specified element
+
+HTML File:
+```
+<div id="fight_box">
+  <div id="fight_btn">
+		<form id="round_number">
+		  <input id="result" value="Round 1 - Tied"></input>
+		</form><br>
+		<a href="#" class="buttonblue">FIGHT!</a>
+	</div>
+	<div id="fight_bg">
+		<img src="images/Sailormoon:Goku.jpg"/>
+	</div>
+</div>
+```
+
+Javascript File:
+```
+  var btn = document.querySelector("#fight_btn");
+  btn.addEventListener("click", fight, false);
+```
+
+
