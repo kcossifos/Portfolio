@@ -1,4 +1,4 @@
-# Portfolio
+# Javascript & JSON
 
 # Description
 This is a small application that demonstrates how Javascript, HTML, and JSON work together. 
