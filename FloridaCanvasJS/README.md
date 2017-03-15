@@ -1,22 +1,84 @@
-# Portfolio
+# Drinks CanvasJS
 
-#About
-This github repo is a representation of work that I have completed throughout my time at Full Sail University while studying Web Design and Development. Throughout this repo you will see numerous coding languages I have learned such as Javascript, PHP, Angular, HTML, CSS, along with varous others. In addition, you will come across work that I have created in Creative Adobe Suite like Illustrator and Photoshop. This course has not only taught me how to design and code but also to use databases. I will include explanations of my code along with snippets and sql dumps. 
+## Descripition 
+This application informs a user about the state of Florida and the top five cities in the state. The information is displayed by using a bar graph and clickable icons. The following coding languages were used to build this application CanvasJS, jQuery, CSS, and HTML with a foundation frameowkr. In additon, this application has music playing in the background. To view this application go to [FloridaCanvasJS](https://kcossifos.github.io/Portfolio/FloridaCanvasJS/index.html)
 
-#Table of Contents
-####PHP  
-1) [Membership Registeration](https://github.com/kcossifos/Portfolio-/tree/PHP/Membership%20Registeration/pdocrud_mvc)  
-2) [Student Grades Report](https://github.com/kcossifos/Portfolio-/tree/PHP/Student%20Grades%20Report/pdocrud_mvc)  
-3) [Signup/Login System](https://github.com/kcossifos/Portfolio-/tree/PHP/Signup:Login%20System)  
-4) [To Do List](https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList)  
+## CanvasJS
+CanvasJS is a powerful and light weight Charting Library built on top of HTML5 & JavaScript, that includes numerous amount of features. For more information and to download CanvasJS click [here](http://canvasjs.com)
 
-####Illustrator  
-1) [Custom Symbols](https://github.com/kcossifos/Portfolio-/tree/Illustrator/CustomSymbols)  
-2) [Class Final](https://github.com/kcossifos/Portfolio-/tree/Illustrator/IllustratorFinal)  
-3) [Desktop Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Desktop%20Wireframes)  
-4) [Mobile Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Mobile%20Wireframes)  
+## Getting Started
+```
+First make sure you have some kind of code editior installed on your computer
+If not, I recommed installing Atom at https://atom.io
+Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio.git
+Then open up the DrinksCanvasJS file
+```
 
-#Contact Information  
-**Email:** kcossifos@gmail.com  
-**Phone Number:** (845)-662-5063  
-**Social Media:** [Linkedin](https://www.linkedin.com/in/kcossifos/)  
+## Audio 
+**audio** element allows audio to be played in an HTML file.
+**controls** attribute adds audio controls, like play, pause, and volume.
+**source** element allows specification of alternative audio files which the browser may choose from.
+
+```
+<audio controls autoplay>
+  <source src="audio/naturesounds.ogg" type="audio/ogg">
+  <p>If you can read this, your browser does not support the audio element.</p>
+</audio>
+```
+
+## CanvasJS
+
+#### Making a map interactive
+
+```
+$(document).ready(function() {
+
+	//when the form changes
+	$('#mapForm').change(function(){
+
+		//create variable to hold selected
+		var selectedCity = $('#mapForm option:selected').val();
+
+		//if ALL is selected show dots
+		if(selectedCity == "ALL"){
+
+			// show the dots
+			$("a.dot").slideDown(1000);
+
+		}else {
+
+			//show the dots that are selected
+			//hide the others
+			$('a.dot[cities = "' + selectedCity + '"]').slideDown(1000);
+			$('a.dot[cities != "' + selectedCity + '"]').slideUp(1000);
+		}
+	})
+
+	//dot code
+	//when a dot is clicked 
+	$('a.dot').click(function(){
+
+		//remove selected class from all dots
+		$('a.dot').removeClass('selected');
+
+		//add selected class on the clicked anchor
+		$(this).addClass("selected");
+
+		//Create a variable to hold the path of the matching div
+		var city = ".city_detail#" +$(this).attr("city");
+
+		//variable to hold the html code
+		var htmlCode = $(city).html();
+
+		//animate the container = fade in and out
+		$(".detail_container").fadeOut(500, function(){
+
+			//the container is hidden
+			//put html in the container and then fade it back in
+			$(".detail_container .city_detail").html(htmlCode);
+			$(".detail_container").fadeIn(500);
+		})
+	})
+
+});
+```
