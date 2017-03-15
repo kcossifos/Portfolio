@@ -1,7 +1,7 @@
 # Javascript & JSON
 
 ## Description
-This is a small application that demonstrates how Javascript, HTML, and JSON work together. 
+This is a small application that demonstrates how Javascript, HTML, and JSON work together. To view this application go to To view this application go to [Javascript&JSON](https://kcossifos.github.io/Portfolio/Javascript&JSON/index.html)
 
 ## Getting Started
 ```
