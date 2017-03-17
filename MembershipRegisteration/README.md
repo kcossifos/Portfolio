@@ -1,14 +1,14 @@
-#Membership Registeration
+# Membership Registeration
 This is a basic registeration that only allows a user to have a username and password with a dashboard that allows you to update and delete users.
 
-##Getting Started
+## Getting Started
 ```
 First make sure you have some kind of code editior installed on your computer
 If not, I recommed installing Atom at https://atom.io
 Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio-/tree/PHP/Membership%20Registeration
 ```
 
-##Create your Database
+## Create your Database
 This Membership Registeration is using MySQL
 ```
 1) Make sure you have MySQL installed, if not in your terminal run the command brew install mysql
@@ -16,7 +16,7 @@ This Membership Registeration is using MySQL
 3) Create a database
 ```
 
-##Connection to Database 
+## Connection to Database 
 
 ```
 To Create your connection to your database make sure you use the 
