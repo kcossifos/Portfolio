@@ -1,16 +1,16 @@
 # Employee Directory
 
-##Descripition 
+## Descripition 
 This is a simple application that allows a user to add an employee to a directory with the ability of deleting that employee. This application uses AngularJS, HTML, and CSS. To view this application go to [EmployeeDirectory](https://kcossifos.github.io/Portfolio/EmployeeDirectory/index.html)
 
-##Getting Started
+## Getting Started
 ```
 First make sure you have some kind of code editior installed on your computer
 If not, I recommed installing Atom at https://atom.io
 Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio.git
 ```
 
-##Directives
+## Directives
 The following directives that are used in this application
 
 **ng-app** flags the HTML element that AngularJS should consider to be the root element of the application which allows a developer to tell AngularJS what portion of the application should be treated as the AngularJS.
