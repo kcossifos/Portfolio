@@ -1,18 +1,18 @@
 # To Do List
 To Do List that allows a user to create a to do item with a description and date and allows the user to update and delete the to do item. 
 
-##Description
+## Description
 In this project, I have used the following languages PHP, HTML, and CSS. 
 Along with mysql database. This project will help you understand the basic MVC structure. For addition links to have a better understanding of MVC go to [MVC Part 1](https://www.sitepoint.com/the-mvc-pattern-and-php-1/) and [MVC Part 2](https://www.sitepoint.com/the-mvc-pattern-and-php-2/)
 
-##Getting Started
+## Getting Started
 ```
 First make sure you have some kind of code editior installed on your computer
 If not, I recommed installing Atom at https://atom.io
 Now clone this repository to get started by typing git clone https://github.com/kcossifos/Portfolio.git
 ```
 
-##Create your Database
+## Create your Database
 This To Do List is using MySQL
 ```
 1) Make sure you have MySQL installed, if not in your terminal run the command brew install mysql
@@ -20,14 +20,14 @@ This To Do List is using MySQL
 3) Create a database
 ```
 
-##Connection to Database 
+## Connection to Database 
 
 ```
 To Create your connection to your database make sure you use the 
 correct Username and Password in the includes/db.php file
 ```
 
-##Run Project 
+## Run Project 
 
 ``` 
 Once the file is cloned and your database is setup along 
