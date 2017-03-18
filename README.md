@@ -41,6 +41,12 @@ This github repo is a representation of work that I have completed throughout my
 1) [Modal](https://github.com/kcossifos/Portfolio/tree/Jquery/Modal)  
 2) [To Do List](https://github.com/kcossifos/Portfolio/tree/Jquery/ToDo)    
 
+#### Python
+1) [BuffetMVC](https://github.com/kcossifos/Portfolio/tree/Python/BuffetMVC)  
+2) [Classes](https://github.com/kcossifos/Portfolio/tree/Python/Classes)    
+3) [MVC](https://github.com/kcossifos/Portfolio/tree/Python/MVC)    
+4) [Madlib](https://github.com/kcossifos/Portfolio/tree/Python/Madlib)    
+
 
 # Contact Information    
 **Email:** kcossifos@gmail.com  
