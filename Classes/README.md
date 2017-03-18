@@ -1,4 +1,4 @@
-# Buffet MVC
+# Classes
 ## Descripition 
 This application is a simple representation of classes in Python.
 
