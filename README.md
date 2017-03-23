@@ -5,10 +5,10 @@ This github repo is a representation of work that I have completed throughout my
 
 # Table of Contents  
 #### PHP   
-1) [Membership Registeration](https://github.com/kcossifos/Portfolio-/tree/PHP/Membership%20Registeration/pdocrud_mvc)  
-2) [Student Grades Report](https://github.com/kcossifos/Portfolio-/tree/PHP/Student%20Grades%20Report/pdocrud_mvc)  
-3) [Signup/Login System](https://github.com/kcossifos/Portfolio-/tree/PHP/Signup:Login%20System)  
-4) [To Do List](https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList)  
+1) [Membership Registeration](https://github.com/kcossifos/PHP/tree/master/MembershipRegisteration)  
+2) [Student Grades Report](https://github.com/kcossifos/PHP/tree/master/StudentGradesReport)  
+3) [Signup/Login System](https://github.com/kcossifos/PHP/tree/master/Signup%26Login%20System)  
+4) [To Do List](https://github.com/kcossifos/PHP/tree/master/ToDoLists)  
 
 #### Illustrator    
 1) [Custom Symbols](https://github.com/kcossifos/illustrator/tree/master/CustomSymbols)    
@@ -17,18 +17,18 @@ This github repo is a representation of work that I have completed throughout my
 4) [Mobile Wireframes](https://github.com/kcossifos/illustrator/tree/master/Mobile%20Wireframes)  
 
 #### AngularJS  
-1) [CupcakeStore](https://github.com/kcossifos/Portfolio/tree/angular/CupcakeStore)  
-2) [Employee Directory](https://github.com/kcossifos/Portfolio/tree/angular/EmployeeDirectory)   
-3) [Grocery List](https://github.com/kcossifos/Portfolio/tree/angular/GroceryList)    
-4) [Pokemon List](https://github.com/kcossifos/Portfolio/tree/angular/PokemonList)  
-5) [Student List](https://github.com/kcossifos/Portfolio/tree/angular/StudentList)      
-6) [Cat Adoption](https://github.com/kcossifos/Portfolio/tree/angular/CatAdoption)    
+1) [CupcakeStore](https://github.com/kcossifos/Angular/tree/angular/CupcakeStore)  
+2) [Employee Directory](https://github.com/kcossifos/Angular/tree/angular/EmployeeDirectory)   
+3) [Grocery List](https://github.com/kcossifos/Angular/tree/angular/GroceryList)    
+4) [Pokemon List](https://github.com/kcossifos/Angular/tree/angular/PokemonList)  
+5) [Student List](https://github.com/kcossifos/Angular/tree/angular/StudentList)      
+6) [Cat Adoption](https://github.com/kcossifos/Angular/tree/angular/CatAdoption)    
 
 #### HTML/CSS  
-1) [Festival Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/FestivalWebsite)  
-2) [HelloKitty Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/HelloKittyWebsite)    
-3) [Restaurant Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/RestaurantWebsite)    
-4) [SailorMoon Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/SailorMoonWebsite)    
+1) [Festival Website](https://github.com/kcossifos/HTML-CSS/tree/master/FestivalWebsite)  
+2) [HelloKitty Website](https://github.com/kcossifos/HTML-CSS/tree/master/HelloKittyWebsite)    
+3) [Restaurant Website](https://github.com/kcossifos/HTML-CSS/tree/HTML/CSS/RestaurantWebsite)    
+4) [SailorMoon Website](https://github.com/kcossifos/HTML-CSS/tree/HTML/CSS/SailorMoonWebsite)    
 
 #### Javascript
 1) [DrinksCanvasJS](https://github.com/kcossifos/Javascript/tree/master/DrinksCanvasJS)  
@@ -38,14 +38,14 @@ This github repo is a representation of work that I have completed throughout my
 5) [Battleship](https://github.com/kcossifos/Javascript/tree/master/battleship)  
 
 #### jQuery 
-1) [Modal](https://github.com/kcossifos/Portfolio/tree/Jquery/Modal)  
-2) [To Do List](https://github.com/kcossifos/Portfolio/tree/Jquery/ToDo)    
+1) [Modal](https://github.com/kcossifos/jQuery/tree/master/Modal)  
+2) [To Do List](https://github.com/kcossifos/jQuery/tree/master/ToDo)    
 
 #### Python
-1) [BuffetMVC](https://github.com/kcossifos/Portfolio/tree/Python/BuffetMVC)  
-2) [Classes](https://github.com/kcossifos/Portfolio/tree/Python/Classes)    
-3) [MVC](https://github.com/kcossifos/Portfolio/tree/Python/MVC)    
-4) [Madlib](https://github.com/kcossifos/Portfolio/tree/Python/Madlib)    
+1) [BuffetMVC](https://github.com/kcossifos/Python/tree/master/BuffetMVC)  
+2) [Classes](https://github.com/kcossifos/Python/tree/master/Classes)    
+3) [MVC](https://github.com/kcossifos/Python/tree/master/MVC)    
+4) [Madlib](https://github.com/kcossifos/Python/tree/master/Madlib)    
 
 
 # Contact Information    
