@@ -11,10 +11,10 @@ This github repo is a representation of work that I have completed throughout my
 4) [To Do List](https://github.com/kcossifos/Portfolio-/tree/PHP/ToDoList)  
 
 #### Illustrator    
-1) [Custom Symbols](https://github.com/kcossifos/Portfolio-/tree/Illustrator/CustomSymbols)    
-2) [Class Final](https://github.com/kcossifos/Portfolio-/tree/Illustrator/IllustratorFinal)  
-3) [Desktop Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Desktop%20Wireframes)  
-4) [Mobile Wireframes](https://github.com/kcossifos/Portfolio-/tree/Illustrator/Mobile%20Wireframes)  
+1) [Custom Symbols](https://github.com/kcossifos/illustrator/tree/master/CustomSymbols)    
+2) [Class Final](https://github.com/kcossifos/illustrator/tree/master/IllustratorFinal)  
+3) [Desktop Wireframes](https://github.com/kcossifos/illustrator/tree/master/Desktop%20Wireframes)  
+4) [Mobile Wireframes](https://github.com/kcossifos/illustrator/tree/master/Mobile%20Wireframes)  
 
 #### AngularJS  
 1) [CupcakeStore](https://github.com/kcossifos/Portfolio/tree/angular/CupcakeStore)  
@@ -31,11 +31,11 @@ This github repo is a representation of work that I have completed throughout my
 4) [SailorMoon Website](https://github.com/kcossifos/Portfolio/tree/HTML/CSS/SailorMoonWebsite)    
 
 #### Javascript
-1) [DrinksCanvasJS](https://github.com/kcossifos/Portfolio/tree/Javascript/DrinksCanvasJS)  
-2) [FightGame](https://github.com/kcossifos/Portfolio/tree/Javascript/FightGame)    
-3) [FloridaCanvasJS](https://github.com/kcossifos/Portfolio/tree/Javascript/FloridaCanvasJS)    
-4) [Javascript&JSON](https://github.com/kcossifos/Portfolio/tree/Javascript/Javascript%26JSON)    
-5) [Battleship](https://github.com/kcossifos/Portfolio/tree/Javascript/battleship)  
+1) [DrinksCanvasJS](https://github.com/kcossifos/Javascript/tree/master/DrinksCanvasJS)  
+2) [FightGame](https://github.com/kcossifos/Javascript/tree/master/FightGame)    
+3) [FloridaCanvasJS](https://github.com/kcossifos/Javascript/tree/master/FloridaCanvasJS)    
+4) [Javascript&JSON](https://github.com/kcossifos/Javascript/tree/master/Javascript%26JSON)    
+5) [Battleship](https://github.com/kcossifos/Javascript/tree/master/battleship)  
 
 #### jQuery 
 1) [Modal](https://github.com/kcossifos/Portfolio/tree/Jquery/Modal)  
